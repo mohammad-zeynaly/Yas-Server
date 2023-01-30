@@ -1,0 +1,1422 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/brand-logo.png">
+    <link rel="stylesheet" href="styles/app.css"><!-- Main Style-->
+    <link rel="stylesheet" href="styles/swiper-bundle.min.css"><!-- style lib swiper-->
+    <title>Yas Server</title>
+</head>
+<body>
+
+<div id="overlay" class=""></div>
+
+
+<!-- Header -->
+<header class="header" id="header">
+        <div class="container">
+
+            <div class="header-top">
+                <div class="header-top__buttons">
+                    <a href="#" class="header-top__btn app-btn-md">
+                        <svg class="header-top__icon" width="28" height="24" viewBox="0 0 28 24">
+                            <g id="Layer_2" data-name="Layer 2" transform="translate(4)">
+                              <g id="person">
+                                <rect id="Rectangle_6" data-name="Rectangle 6" width="24" height="24" fill="#fff" opacity="0"/>
+                                <path id="Path_423" data-name="Path 423" d="M12,11A4,4,0,1,0,8,7,4,4,0,0,0,12,11Z" transform="translate(-9)" fill="#fff"/>
+                                <path id="Path_424" data-name="Path 424" d="M18,21a1,1,0,0,0,1-1A7,7,0,1,0,5,20a1,1,0,0,0,1,1Z" transform="translate(-9)" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>      
+                        حساب کاربری
+                    </a>
+                    <a href="#" class="header-top__btn app-btn-md">
+                        <svg class="header-top__icon" width="32.002" height="24" viewBox="0 0 32.002 24">
+                            <g id="Layer_2" data-name="Layer 2" transform="translate(8.002)">
+                              <g id="headphones">
+                                <rect id="Rectangle_8" data-name="Rectangle 8" width="24" height="24" fill="#fff" opacity="0"/>
+                                <path id="Path_425" data-name="Path 425" d="M12,2A10.2,10.2,0,0,0,2,12.37V17a4,4,0,1,0,4-4,3.91,3.91,0,0,0-2,.56V12.37A8.2,8.2,0,0,1,12,4a8.2,8.2,0,0,1,8,8.37v1.19A3.91,3.91,0,0,0,18,13a4,4,0,1,0,4,4V12.37A10.2,10.2,0,0,0,12,2Z" transform="translate(-10.001)" fill="#fff"/>
+                              </g>
+                            </g>
+                          </svg>
+                        گفتگو آنلاین
+                    </a>
+                </div>
+                <div class="header-top__links">
+                    <ul class="header-top-menu">
+                        <li class="header-top-menu__item">
+                            <a href="#" class="header-top-menu__link">صفحه نخست</a>
+                        </li>
+                        <li class="header-top-menu__item">
+                            <a href="#" class="header-top-menu__link">
+                                <span class="header-top-menu__pipe">|</span>
+                                تماس با ما
+                            </a>
+                        </li>
+                        <li class="header-top-menu__item">
+                            <a href="#" class="header-top-menu__link">
+                                <span class="header-top-menu__pipe">|</span>
+                                وبلاگ
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <nav class="nav">
+                <a href="#" class="nav__brand">
+                    <svg class="nav__brand-icon" width="42" height="42" viewBox="0 0 42 42">
+                        <g id="Layer_2" data-name="Layer 2" transform="translate(-0.22 -0.22)">
+                          <g id="hard-drive" transform="translate(-0.245 -0.245)">
+                            <rect id="Rectangle_12" data-name="Rectangle 12" width="42" height="42" transform="translate(0.465 0.465)" fill="#9b93ec" opacity="0"/>
+                            <path id="Path_646" data-name="Path 646" d="M34.483,17.759,28.572,5.938A5.309,5.309,0,0,0,23.811,3H14.043a5.309,5.309,0,0,0-4.76,2.938L3.372,17.759A3.539,3.539,0,0,0,3,19.352V29.545a5.309,5.309,0,0,0,5.309,5.309H29.545a5.309,5.309,0,0,0,5.309-5.309V19.352A3.539,3.539,0,0,0,34.483,17.759ZM11.848,27.775a1.77,1.77,0,1,1,1.77-1.77A1.77,1.77,0,0,1,11.848,27.775Zm14.157,0H18.927a1.77,1.77,0,0,1,0-3.539h7.079a1.77,1.77,0,1,1,0,3.539ZM7.637,17.157,12.45,7.513a1.77,1.77,0,0,1,1.593-.973h9.769a1.77,1.77,0,0,1,1.593.973l4.814,9.645Z" transform="translate(2.538 2.538)" fill="#9b93ec"/>
+                          </g>
+                        </g>
+                      </svg>                      
+                    <span class="nav__brand-title">یاس سرور</span>
+                </a>
+                <ul class="menu">
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            میزبانی وب
+                        <svg class="menu__link-icon" width="24" height="24" viewBox="0 0 24 24">
+                            <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" transform="translate(24) rotate(90)" fill="#474747" opacity="0"/>
+                            <path id="Path_421" data-name="Path 421" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z" fill="#474747"/>
+                        </svg>
+                        </a>
+                        <div class="mega-menus mega-menus--one">
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">هاست لینوکس</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">لینوکس سی پنل ایران</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">لینوکس سی پنل آلمان</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">لینوکس سی پنل اروپا</a>
+                                    </li>
+                                </ul>
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">هاست ویندوز</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">ویندوز ایران</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">وینوز آلمان</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">ویندوز اروپا</a>
+                                    </li>
+                                </ul>
+
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">هاست دانلود</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">دانلود ایران</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">دانلود آلمان</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">دانلود اروپا</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            دامنه
+                            <svg class="menu__link-icon" width="24" height="24" viewBox="0 0 24 24">
+                                <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" transform="translate(24) rotate(90)" fill="#474747" opacity="0"/>
+                                <path id="Path_421" data-name="Path 421" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z" fill="#474747"/>
+                            </svg>
+                        </a>
+                        <div class="mega-menus mega-menus--two">
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">دامنه</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">ثبت دامنه</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">انتقال دامنه</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">تمدید دامنه</a>
+                                    </li>
+                                </ul>
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title"> دامنه</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link"> ثبت دامنه ایرانی</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">رزرو دامنه</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link"> اراِه گواهی نامه ssl</a>
+                                    </li>
+                                </ul>
+                            </div>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            سرور مجازی
+                            <svg class="menu__link-icon" width="24" height="24" viewBox="0 0 24 24">
+                                <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" transform="translate(24) rotate(90)" fill="#474747" opacity="0"/>
+                                <path id="Path_421" data-name="Path 421" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z" fill="#474747"/>
+                            </svg>
+                        </a>
+                        <div class="mega-menus mega-menus--three">
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title"> سرور مجازی</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور مجازی اروپا</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور مجازی ایران</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور Gpu</a>
+                                    </li>
+                                </ul>
+                        </div>
+                    </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">
+                            سرور اختصاصی
+                            <svg class="menu__link-icon" width="24" height="24" viewBox="0 0 24 24">
+                                <rect id="Rectangle_3" data-name="Rectangle 3" width="24" height="24" transform="translate(24) rotate(90)" fill="#474747" opacity="0"/>
+                                <path id="Path_421" data-name="Path 421" d="M13.83,19a1,1,0,0,1-.78-.37l-4.83-6a1,1,0,0,1,0-1.27l5-6a1,1,0,0,1,1.54,1.28L10.29,12l4.32,5.36A1,1,0,0,1,13.83,19Z" fill="#474747"/>
+                            </svg>
+                        </a>
+                        <div class="mega-menus mega-menus--four">
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">سرور اختصاصی</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی ایرانی</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی ایران</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی فرانسه</a>
+                                    </li>
+                                </ul>
+                                <ul class="mega-menu">
+                                    <h4 class="mega-menu__title">سرور اختصاصی</h4>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی کانادا</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی آمریکا</a>
+                                    </li>
+                                    <li class="mega-menu__item">
+                                        <a href="#" class="mega-menu__link">سرور اختصاصی انگلیس</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </li>
+                    <li class="menu__item">
+                        <a href="#" class="menu__link">نمایندگی</a>
+                    </li>
+                </ul>
+                <div class="phone-number">
+                    <span class="phone-number__num">031-53542797</span>
+                    <span class="phone-number__icons">
+                        <svg class="phone-number__icon" width="42" height="42" viewBox="0 0 66 66">
+                            <g id="Group_247" data-name="Group 247" transform="translate(-200 -105)">
+                              <circle id="Ellipse_4" data-name="Ellipse 4" cx="24" cy="24" r="24" transform="translate(209 114)" fill="#4caf50"/>
+                              <g id="Group_245" data-name="Group 245">
+                                <g id="Group_244" data-name="Group 244">
+                                  <path id="Path_2020" data-name="Path 2020" d="M33,0A33,33,0,1,1,0,33,33,33,0,0,1,33,0Z" transform="translate(200 105)" fill="#4caf50" opacity="0.1"/>
+                                </g>
+                              </g>
+                              <g id="Layer_2" data-name="Layer 2" transform="translate(221.177 126.177)">
+                                <g id="Group_246" data-name="Group 246">
+                                  <g id="phone" transform="translate(-0.139 -0.139)">
+                                    <rect id="Rectangle_4" data-name="Rectangle 4" width="24" height="24" transform="translate(-0.038 -0.038)" fill="#fff" opacity="0"/>
+                                    <path id="Path_422" data-name="Path 422" d="M17.157,21.685A15.177,15.177,0,0,1,2,6.528,4.528,4.528,0,0,1,6.528,2a3.878,3.878,0,0,1,.758.069,3.73,3.73,0,0,1,.709.177.984.984,0,0,1,.64.738L9.982,8.89a.984.984,0,0,1-.256.906c-.128.138-.138.148-1.348.778a9.754,9.754,0,0,0,4.793,4.813c.64-1.22.65-1.23.787-1.358a.984.984,0,0,1,.906-.256L20.77,15.12a.984.984,0,0,1,.709.64,4.272,4.272,0,0,1,.187.718,4.7,4.7,0,0,1,.059.748A4.528,4.528,0,0,1,17.157,21.685Z" transform="translate(0.12 0.12)" fill="#fff"/>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>   
+                    </span>
+                </div>
+            </nav>
+
+            <div class="mobile-nav">
+              <a href="#" class="mobile-nav__brand">
+                <svg class="nav__brand-icon" width="45" height="45" viewBox="0 0 42 42">
+                    <g id="Layer_2" data-name="Layer 2" transform="translate(-0.22 -0.22)">
+                      <g id="hard-drive" transform="translate(-0.245 -0.245)">
+                        <rect id="Rectangle_12" data-name="Rectangle 12" width="42" height="42" transform="translate(0.465 0.465)" fill="#fff" opacity="0"/>
+                        <path id="Path_646" data-name="Path 646" d="M34.483,17.759,28.572,5.938A5.309,5.309,0,0,0,23.811,3H14.043a5.309,5.309,0,0,0-4.76,2.938L3.372,17.759A3.539,3.539,0,0,0,3,19.352V29.545a5.309,5.309,0,0,0,5.309,5.309H29.545a5.309,5.309,0,0,0,5.309-5.309V19.352A3.539,3.539,0,0,0,34.483,17.759ZM11.848,27.775a1.77,1.77,0,1,1,1.77-1.77A1.77,1.77,0,0,1,11.848,27.775Zm14.157,0H18.927a1.77,1.77,0,0,1,0-3.539h7.079a1.77,1.77,0,1,1,0,3.539ZM7.637,17.157,12.45,7.513a1.77,1.77,0,0,1,1.593-.973h9.769a1.77,1.77,0,0,1,1.593.973l4.814,9.645Z" transform="translate(2.538 2.538)" fill="#fff"/>
+                      </g>
+                    </g>
+                  </svg>                      
+                <span class="mobile-nav__brand-title">یاس سرور</span>
+            </a>
+            <ul class="mobile-nav-menu">
+              <h3 class="mobile-nav-menu__title">یاس سرور</h3>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">میزبانی وب</a>
+              </li>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">دامنه</a>
+              </li>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">سرور مجازی</a>
+              </li>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">سرور اختصاصی</a>
+              </li>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">نمایندگی</a>
+              </li>
+              <li class="mobile-nav-menu__item">
+                <a href="" class="mobile-nav-menu__link">وبلاگ</a>
+              </li>
+              <div class="mobile-nav-menu-buttons">
+              <a href="#" class="mobile-nav-menu__btn app-btn-md">   
+                حساب کاربری
+            </a>
+            <a href="#" class="mobile-nav-menu__btn app-btn-md">   
+               گفتگو آنلاین
+          </a>
+        </div>
+            </ul>
+            <div class="mobile-nav-btn__line">
+              <span class="mobile-nav__menu-btn"></span>
+            </div>
+            </div>
+
+            <section class="home">
+                <div class="home__wrapper">
+                    <div class="home-content">
+                        <h1 class="home-content__title">به دنبال میزبانی حرفه‌ای و مطمئن هستید؟</h1>
+                        <p class="home-content__description"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                            چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                          مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+                           <div class="home-content__buttons">
+                            <a href="#" class="home-content__btn app-btn-md">ثبت سرویس</a>
+                            <a href="#" class="home-content__btn home-content__btn--bg app-btn-md">مشاهده پلن‌ها</a>
+                           </div>
+                    </div>
+                    <div class="home-picture">
+                        <img class="home-picture__image" src="img/home_img.png" alt="Image Home">
+                    </div>
+                </div>
+            </section>
+
+        </div> 
+</header>
+
+
+<!-- Main -->
+<main class="main">
+
+    <section class="domain">
+        <div class="container">
+            <div class="domain-search domain__wrapper">
+                <a href="#" class="app-btn-lg domain-search__link">بررسی قابلیت ثبت</a>
+                <a href="" class="domain-search__btn-icon">
+                  <svg fill="#9B93EC" width="40px" height="40px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
+                    <rect id="Icons" x="-640" y="-128" width="1280" height="800" style="fill:none;"/><g id="Icons1" serif:id="Icons"><g id="Strike"></g><g id="H1"></g><g id="H2"></g><g id="H3"></g><g id="list-ul"></g><g id="hamburger-1"></g><g id="hamburger-2"></g><g id="list-ol"></g><g id="list-task"></g><g id="trash"></g><g id="vertical-menu"></g><g id="horizontal-menu"></g><g id="sidebar-2"></g><g id="Pen"></g><g id="Pen1" serif:id="Pen"></g><g id="clock"></g><g id="external-link"></g><g id="hr"></g><g id="info"></g><g id="warning"></g><g id="plus-circle"></g><g id="minus-circle"></g><g id="vue"></g><g id="cog"></g><g id="logo"></g><g id="radio-check"></g><g id="eye-slash"></g><g id="eye"></g><g id="toggle-off"></g><g id="shredder"></g><path d="M39.94,44.142c-3.387,2.507 7.145,-8.263 4.148,-4.169c0.075,-0.006 -0.064,0.221 -0.53,0.79c0,0 8.004,7.95 11.933,11.996c1.364,1.475 -1.097,4.419 -2.769,2.882c-3.558,-3.452 -11.977,-12.031 -11.99,-12.045l-0.792,0.546Z"/><path d="M28.179,48.162c5.15,-0.05 10.248,-2.183 13.914,-5.806c4.354,-4.303 6.596,-10.669 5.814,-16.747c-1.34,-10.415 -9.902,-17.483 -19.856,-17.483c-7.563,0 -14.913,4.731 -18.137,11.591c-2.468,5.252 -2.473,11.593 0,16.854c3.201,6.812 10.431,11.518 18.008,11.591c0.086,0 0.172,0 0.257,0Zm-0.236,-3.337c-7.691,-0.074 -14.867,-6.022 -16.294,-13.648c-1.006,-5.376 0.893,-11.194 4.849,-15.012c4.618,-4.459 11.877,-5.952 17.913,-3.425c5.4,2.261 9.442,7.511 10.187,13.295c0.638,4.958 -1.141,10.154 -4.637,13.733c-3.067,3.14 -7.368,5.014 -11.803,5.057c-0.072,0 -0.143,0 -0.215,0Z" style="fill-rule:nonzero;"/><g id="spinner--loading--dots-" serif:id="spinner [loading, dots]"></g><g id="react"></g><g id="check-selected"></g><g id="turn-off"></g><g id="code-block"></g><g id="user"></g><g id="coffee-bean"></g><g id="coffee-beans"><g id="coffee-bean1" serif:id="coffee-bean"></g></g><g id="coffee-bean-filled"></g><g id="coffee-beans-filled"><g id="coffee-bean2" serif:id="coffee-bean"></g></g><g id="clipboard"></g><g id="clipboard-paste"></g><g id="clipboard-copy"></g><g id="Layer1"></g></g></svg>
+                </a>
+                <div class="domain-search__options">
+                    <select class="domain__select-box">
+                        <option class="domain__option" value="1">.ir</option>
+                        <option class="domain__option" value="2">.com</option>
+                        <option class="domain__option" value="3">.org</option>
+                        <option class="domain__option" value="4">.net</option>
+                        <option class="domain__option" value="5">.dev</option>
+                        <option class="domain__option" value="6">.info</option>
+                    </select>
+                </div>
+                <span class="domain-search__pipe"></span>
+                <input class="domain-search__input" type="text" placeholder="Type Your domain ...">
+            </div>
+        </div>
+    </section>
+
+    <section class="domain-btn">
+        <div class="container">
+            <div class="domain__wrapper domain-btn__row">
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link--orange">.com/</span>
+                    215.000
+                </a>
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link--green">.ir/</span>
+                    4.000
+                </a>
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link--light-blue">.net/</span>
+                    250.000
+                </a>
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link--yellow">.dev/</span>
+                    486.000
+                </a>
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link--blue">.info/</span>
+                    117.000
+                </a>
+                <a href="#" class="domain-btn__link">
+                    <span class="domain-btn__link-red">.org/</span>
+                    225.000
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="section-heading">
+                <h4 class="section-heading__caption">میزبانی وب و سرور مجازی</h4>
+                <h2 class="section-heading__title">خدمات و سرویس‌های ما</h2>
+            </div>
+            <div class="services-items">
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_244" data-name="Group 244" transform="translate(-285.39 -1472.438)">
+                              <path id="blob_1_" data-name="blob (1)" d="M121.1,8.355c10.3,3.5,16.544,17.111,22.4,33.276C149.27,57.7,154.753,76.42,147,85.306s-28.833,7.846-46.511,13.046c-17.678,5.294-32.142,16.922-46.039,16.355-13.8-.473-27.037-13.046-37.719-28.55-10.682-15.6-5.951-22.021-3.4-38.848,2.552-16.922,7.128-33.819,22.537-36.466A152.13,152.13,0,0,1,80.354,9.678C96.331,11.38,110.795,4.857,121.1,8.355Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 285.37, 1464.282)" fill="#9b93ec" opacity="0.05"/>
+                              <g id="servers_1_" data-name="servers (1)" transform="translate(316.434 1489.425)">
+                                <g id="Group_120" data-name="Group 120" transform="translate(0 0.011)">
+                                  <g id="Group_119" data-name="Group 119">
+                                    <path id="Path_1099" data-name="Path 1099" d="M283.317,405.323h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -344.264)" fill="#f57c00"/>
+                                    <path id="Path_1100" data-name="Path 1100" d="M283.317,447.989h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -380.502)" fill="#f57c00"/>
+                                    <path id="Path_1101" data-name="Path 1101" d="M47.488,405.323a4.821,4.821,0,1,0,4.821,4.821A4.827,4.827,0,0,0,47.488,405.323Zm0,6.427a1.607,1.607,0,1,1,1.607-1.607A1.608,1.608,0,0,1,47.488,411.75Z" transform="translate(-36.239 -344.264)" fill="#f57c00"/>
+                                    <path id="Path_1102" data-name="Path 1102" d="M47.488,277.323a4.821,4.821,0,1,0,4.821,4.821A4.827,4.827,0,0,0,47.488,277.323Zm0,6.428a1.607,1.607,0,1,1,1.607-1.607A1.608,1.608,0,0,1,47.488,283.751Z" transform="translate(-36.239 -235.547)" fill="#f57c00"/>
+                                    <path id="Path_1103" data-name="Path 1103" d="M283.317,191.989h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -163.068)" fill="#f57c00"/>
+                                    <path id="Path_1104" data-name="Path 1104" d="M77.131,30.539V24.111a7.964,7.964,0,0,0-1.218-4.2c-.022-.045-.026-.1-.051-.138L65.925,3.8A7.988,7.988,0,0,0,59.1.011H18.039A7.984,7.984,0,0,0,11.216,3.8L1.279,19.773c-.016.026-.016.055-.032.084A7.97,7.97,0,0,0,0,24.111v6.428a8,8,0,0,0,3.265,6.428A8.009,8.009,0,0,0,0,43.394v6.428a8,8,0,0,0,3.265,6.428A8.009,8.009,0,0,0,0,62.677V69.1a8.046,8.046,0,0,0,8.034,8.034H69.1A8.046,8.046,0,0,0,77.131,69.1V62.677a8,8,0,0,0-3.265-6.428,8,8,0,0,0,3.265-6.428V43.394a8,8,0,0,0-3.265-6.428A8,8,0,0,0,77.131,30.539ZM13.945,5.5a4.787,4.787,0,0,1,4.091-2.275H59.1A4.787,4.787,0,0,1,63.19,5.5l6.63,10.654c-.241-.022-.476-.074-.723-.074H8.034c-.248,0-.479.051-.72.074Zm59.973,57.18V69.1A4.827,4.827,0,0,1,69.1,73.925H8.034A4.827,4.827,0,0,1,3.214,69.1V62.677a4.827,4.827,0,0,1,4.821-4.821H69.1A4.827,4.827,0,0,1,73.918,62.677Zm0-19.283v6.428A4.827,4.827,0,0,1,69.1,54.642H8.034a4.827,4.827,0,0,1-4.821-4.821V43.394a4.827,4.827,0,0,1,4.821-4.821H69.1A4.827,4.827,0,0,1,73.918,43.394Zm0-12.855A4.827,4.827,0,0,1,69.1,35.36H8.034a4.827,4.827,0,0,1-4.821-4.821V24.111a4.827,4.827,0,0,1,4.821-4.821H69.1a4.827,4.827,0,0,1,4.821,4.821v6.428Z" transform="translate(0 -0.011)" fill="#9b93ec"/>
+                                    <path id="Path_1105" data-name="Path 1105" d="M283.317,149.323h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -126.83)" fill="#f57c00"/>
+                                    <path id="Path_1106" data-name="Path 1106" d="M283.317,319.989h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -271.785)" fill="#f57c00"/>
+                                    <path id="Path_1107" data-name="Path 1107" d="M283.317,277.323h-25.71a1.607,1.607,0,0,0,0,3.214h25.71a1.607,1.607,0,1,0,0-3.214Z" transform="translate(-217.434 -235.547)" fill="#f57c00"/>
+                                    <path id="Path_1108" data-name="Path 1108" d="M47.488,149.323a4.821,4.821,0,1,0,4.821,4.821A4.827,4.827,0,0,0,47.488,149.323Zm0,6.427a1.607,1.607,0,1,1,1.607-1.607A1.608,1.608,0,0,1,47.488,155.75Z" transform="translate(-36.239 -126.83)" fill="#f57c00"/>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                   
+                    </div>
+                    <h5 class="service-item__title">سرور اختصاصی</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_245" data-name="Group 245" transform="translate(-676.266 -1469.914)">
+                              <g id="Group_123" data-name="Group 123" transform="translate(0.266 40)">
+                                <path id="blob_1_" data-name="blob (1)" d="M121.1,8.355c10.3,3.5,26.914,18.28,32.775,34.446,5.767,16.071-15.34,24.492-23.092,33.378s-8.51,25.109-26.188,30.309c-17.678,5.294-34.66,1.422-48.557.855-13.8-.473-22.518-14.955-33.2-30.459C12.154,61.286.131,50.8,2.683,33.974c2.552-16.922,18.178-20.649,33.587-23.3C51.585,8.125,63.011-1.633,78.893.163,94.869,1.865,110.795,4.857,121.1,8.355Z" transform="matrix(-0.996, -0.087, 0.087, -0.996, 830.275, 1552.234)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="servers" transform="translate(718 1451.835)">
+                                  <g id="Group_118" data-name="Group 118" transform="translate(0 0)">
+                                    <g id="Group_117" data-name="Group 117">
+                                      <path id="Path_1091" data-name="Path 1091" d="M257.632,280.6h26.11a1.632,1.632,0,0,0,0-3.264h-26.11a1.632,1.632,0,1,0,0,3.264Z" transform="translate(-216.835 -234.905)" fill="#f57c00"/>
+                                      <path id="Path_1092" data-name="Path 1092" d="M78.329,31.005V24.478a8.088,8.088,0,0,0-1.247-4.285,1.279,1.279,0,0,0-.046-.121L66.946,3.851A8.115,8.115,0,0,0,60.017,0h-41.7a8.111,8.111,0,0,0-6.929,3.851L1.3,20.072c-.02.033-.02.069-.039.1A8.076,8.076,0,0,0,0,24.478v6.528a8.129,8.129,0,0,0,3.316,6.528A8.124,8.124,0,0,0,0,44.06v6.528a8.129,8.129,0,0,0,3.316,6.528A8.124,8.124,0,0,0,0,63.643V70.17a8.171,8.171,0,0,0,8.159,8.159h21.4a1.632,1.632,0,1,0,0-3.264H8.159a4.9,4.9,0,0,1-4.9-4.9V63.643a4.9,4.9,0,0,1,4.9-4.9h27.3a1.632,1.632,0,0,0,0-3.264H8.159a4.9,4.9,0,0,1-4.9-4.9V44.06a4.9,4.9,0,0,1,4.9-4.9H70.17a4.9,4.9,0,0,1,4.9,4.9v6.528a4.854,4.854,0,0,1-.516,2.134,1.632,1.632,0,0,0,2.931,1.436,8.027,8.027,0,0,0,.849-3.571V44.06a8.129,8.129,0,0,0-3.316-6.528A8.133,8.133,0,0,0,78.329,31.005ZM14.158,5.574a4.861,4.861,0,0,1,4.155-2.311h41.7a4.871,4.871,0,0,1,4.158,2.311L70.9,16.394a6.81,6.81,0,0,0-.734-.075H8.159c-.251,0-.49.049-.734.072ZM75.066,31.005a4.9,4.9,0,0,1-4.9,4.9H8.159a4.9,4.9,0,0,1-4.9-4.9V24.478a4.9,4.9,0,0,1,4.9-4.9H70.17a4.9,4.9,0,0,1,4.9,4.9v6.528Z" transform="translate(0 0)" fill="#9b93ec"/>
+                                      <path id="Path_1093" data-name="Path 1093" d="M42.667,410.229a4.9,4.9,0,1,0,4.9-4.9A4.9,4.9,0,0,0,42.667,410.229Zm6.527,0a1.632,1.632,0,1,1-1.632-1.632A1.633,1.633,0,0,1,49.194,410.229Z" transform="translate(-36.139 -343.322)" fill="#f57c00"/>
+                                      <path id="Path_1094" data-name="Path 1094" d="M247.6,326.527c-.3,0-.594.016-.884.042a14.638,14.638,0,0,0-26.782,6.635,8.159,8.159,0,0,0,1.557,16.168H247.6a11.423,11.423,0,0,0,0-22.846Zm0,19.582h-26.11a4.9,4.9,0,1,1,0-9.791,1.633,1.633,0,0,0,1.632-1.632,11.381,11.381,0,0,1,21.338-5.555,1.63,1.63,0,0,0,1.71.806,8.262,8.262,0,0,1,1.43-.147,8.159,8.159,0,0,1,0,16.319Z" transform="translate(-180.697 -271.044)" fill="#9b93ec"/>
+                                      <path id="Path_1095" data-name="Path 1095" d="M283.742,149.333h-26.11a1.632,1.632,0,1,0,0,3.264h26.11a1.632,1.632,0,1,0,0-3.264Z" transform="translate(-216.835 -126.487)" fill="#f57c00"/>
+                                      <path id="Path_1096" data-name="Path 1096" d="M283.742,192h-26.11a1.632,1.632,0,0,0,0,3.264h26.11a1.632,1.632,0,1,0,0-3.264Z" transform="translate(-216.835 -162.626)" fill="#f57c00"/>
+                                      <path id="Path_1097" data-name="Path 1097" d="M47.563,149.333a4.9,4.9,0,1,0,4.9,4.9A4.9,4.9,0,0,0,47.563,149.333Zm0,6.528a1.632,1.632,0,1,1,1.632-1.632A1.633,1.633,0,0,1,47.563,155.861Z" transform="translate(-36.139 -126.487)" fill="#f57c00"/>
+                                      <path id="Path_1098" data-name="Path 1098" d="M42.667,282.229a4.9,4.9,0,1,0,4.9-4.9A4.9,4.9,0,0,0,42.667,282.229Zm6.527,0a1.632,1.632,0,1,1-1.632-1.632A1.633,1.633,0,0,1,49.194,282.229Z" transform="translate(-36.139 -234.905)" fill="#f57c00"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                    </div>
+                    <h5 class="service-item__title">سرور ابری</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_246" data-name="Group 246" transform="translate(-1079.901 -1445.778)">
+                              <g id="Group_122" data-name="Group 122" transform="translate(0 28)">
+                                <path id="blob_1_" data-name="blob (1)" d="M128.558,8.425c11,3.732,17.653,18.258,23.907,35.508,6.153,17.149,4.785,26.5-3.487,35.982s-23.547,18.995-42.411,24.543c-18.864,5.649-34.3,18.057-49.126,17.451-14.728-.5-28.85-13.921-40.249-30.464C5.793,74.8,10.433,63.278,13.157,45.323c2.724-18.057,7.715-28.482,24.158-31.306,16.342-2.724,30.819-6.1,47.766-4.179C102.129,11.653,117.563,4.693,128.558,8.425Z" transform="matrix(0.951, 0.309, -0.309, 0.951, 1108.187, 1407.777)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="internet" transform="translate(1122 1414.947)">
+                                  <path id="Path_1082" data-name="Path 1082" d="M77.307,41H6.169A6.174,6.174,0,0,0,0,47.165v57.776a6.174,6.174,0,0,0,6.169,6.165H77.307a6.174,6.174,0,0,0,6.169-6.165V47.165A6.174,6.174,0,0,0,77.307,41ZM3.261,60.977H80.215v8.851H3.261ZM6.169,44.261H77.307a2.909,2.909,0,0,1,2.908,2.9V57.716H3.261V47.165A2.909,2.909,0,0,1,6.169,44.261Zm71.138,63.585H6.169a2.909,2.909,0,0,1-2.908-2.9V98.994H13.11a1.63,1.63,0,1,0,0-3.261H3.261V73.089H80.215V95.733H27.751a1.63,1.63,0,0,0,0,3.261H80.215v5.947a2.909,2.909,0,0,1-2.908,2.9Z" fill="#9b93ec"/>
+                                  <path id="Path_1083" data-name="Path 1083" d="M67.506,95.525H94.879a1.63,1.63,0,0,0,0-3.261H67.506a1.63,1.63,0,1,0,0,3.261Z" transform="translate(-55.136 -42.906)" fill="#f57c00"/>
+                                  <path id="Path_1084" data-name="Path 1084" d="M321.428,95.525h.009a1.635,1.635,0,1,0-.009,0Z" transform="translate(-267.659 -42.906)" fill="#f57c00"/>
+                                  <path id="Path_1085" data-name="Path 1085" d="M374.577,95.525h0a1.63,1.63,0,1,0-1.635-1.63A1.628,1.628,0,0,0,374.582,95.525Z" transform="translate(-312.142 -42.906)" fill="#f57c00"/>
+                                  <path id="Path_1086" data-name="Path 1086" d="M427.7,95.525h.009a1.635,1.635,0,1,0-.009,0Z" transform="translate(-356.603 -42.906)" fill="#f57c00"/>
+                                  <path id="Path_1087" data-name="Path 1087" d="M79.736,265.274a1.63,1.63,0,0,0-2.1.957L75.26,272.6l-2.381-6.374a1.631,1.631,0,0,0-1.527-1.06h0a1.631,1.631,0,0,0-1.527,1.06L67.445,272.6l-2.382-6.374a1.63,1.63,0,1,0-3.054,1.141l3.91,10.464a1.63,1.63,0,0,0,1.527,1.06h0a1.63,1.63,0,0,0,1.527-1.06l2.379-6.373,2.382,6.374a1.631,1.631,0,0,0,1.527,1.06h0a1.63,1.63,0,0,0,1.527-1.06l3.905-10.464A1.63,1.63,0,0,0,79.736,265.274Z" transform="translate(-51.812 -187.622)" fill="#f57c00"/>
+                                  <path id="Path_1088" data-name="Path 1088" d="M202.089,277.836a1.63,1.63,0,0,0,3.055,0l2.379-6.373,2.382,6.374a1.631,1.631,0,0,0,1.527,1.06h0a1.63,1.63,0,0,0,1.527-1.06l3.905-10.464a1.63,1.63,0,0,0-3.055-1.14l-2.379,6.373-2.382-6.374a1.631,1.631,0,0,0-1.527-1.06h0a1.63,1.63,0,0,0-1.527,1.06l-2.378,6.371-2.378-6.371a1.63,1.63,0,1,0-3.055,1.14Z" transform="translate(-165.786 -187.623)" fill="#f57c00"/>
+                                  <path id="Path_1089" data-name="Path 1089" d="M338.233,277.837a1.63,1.63,0,0,0,3.055,0l2.379-6.373,2.381,6.374a1.631,1.631,0,0,0,1.527,1.06h0a1.63,1.63,0,0,0,1.527-1.06l3.905-10.464a1.63,1.63,0,0,0-3.055-1.14l-2.379,6.373-2.382-6.374a1.631,1.631,0,0,0-1.527-1.06h0a1.631,1.631,0,0,0-1.527,1.06l-2.378,6.371-2.378-6.371a1.63,1.63,0,1,0-3.055,1.14Z" transform="translate(-279.734 -187.624)" fill="#f57c00"/>
+                                  <path id="Path_1090" data-name="Path 1090" d="M116.941,376.709a1.63,1.63,0,1,0,0,3.261h.009a1.63,1.63,0,1,0-.009-3.261Z" transform="translate(-96.511 -280.976)" fill="#f57c00"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                                        
+                    </div>
+                    <h5 class="service-item__title">ثبت دامنه</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_247" data-name="Group 247" transform="translate(-1492.371 -1455.282)">
+                              <g id="Group_121" data-name="Group 121" transform="translate(0 28)">
+                                <path id="blob_1_" data-name="blob (1)" d="M121.1,8.355c10.3,3.5,16.544,17.111,22.4,33.276C149.27,57.7,154.753,76.42,147,85.306s-28.833,7.846-46.511,13.046c-17.678,5.294-32.142,16.922-46.039,16.355-13.8-.473-27.037-13.046-37.719-28.55C6.05,70.559-2.08,52.124.472,35.3,3.025,18.375,16.354,3.061,31.763.414,47.078-2.139,64.472,7.882,80.354,9.678,96.331,11.38,110.795,4.857,121.1,8.355Z" transform="matrix(0.996, 0.087, -0.087, 0.996, 1502.37, 1427.282)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="XMLID_1011_" transform="translate(1520.718 1449.889)">
+                                  <g id="XMLID_217_" transform="translate(0)">
+                                    <path id="XMLID_218_" d="M103.667,44a1.658,1.658,0,1,0,1.171.485A1.669,1.669,0,0,0,103.667,44Z" transform="translate(-85.112 -36.711)" fill="#f57c00"/>
+                                    <path id="XMLID_1591_" d="M55.667,44a1.658,1.658,0,1,0,1.171.485A1.668,1.668,0,0,0,55.667,44Z" transform="translate(-45.064 -36.711)" fill="#f57c00"/>
+                                    <path id="XMLID_1675_" d="M151.667,44a1.658,1.658,0,1,0,1.171.485A1.668,1.668,0,0,0,151.667,44Z" transform="translate(-125.16 -36.711)" fill="#f57c00"/>
+                                    <path id="XMLID_1676_" d="M167.444,360.02H153.584a1.657,1.657,0,0,0,0,3.313h13.861a1.657,1.657,0,0,0,0-3.313Z" transform="translate(-126.759 -300.376)" fill="#f57c00"/>
+                                    <path id="XMLID_1678_" d="M289.367,360.02a1.658,1.658,0,1,0,1.171.485A1.666,1.666,0,0,0,289.367,360.02Z" transform="translate(-240.047 -300.376)" fill="#f57c00"/>
+                                    <path id="XMLID_1682_" d="M341.747,360.02a1.657,1.657,0,1,0,1.171.485A1.669,1.669,0,0,0,341.747,360.02Z" transform="translate(-283.749 -300.376)" fill="#f57c00"/>
+                                    <path id="XMLID_1683_" d="M167.444,184.02H153.584a1.657,1.657,0,1,0,0,3.313h13.861a1.657,1.657,0,0,0,0-3.313Z" transform="translate(-126.759 -153.534)" fill="#f57c00"/>
+                                    <path id="XMLID_1686_" d="M289.367,184.02a1.658,1.658,0,1,0,1.171.485A1.669,1.669,0,0,0,289.367,184.02Z" transform="translate(-240.047 -153.534)" fill="#f57c00"/>
+                                    <path id="XMLID_1726_" d="M341.747,184.02a1.657,1.657,0,1,0,1.171.485A1.669,1.669,0,0,0,341.747,184.02Z" transform="translate(-283.749 -153.534)" fill="#f57c00"/>
+                                    <path id="XMLID_1727_" d="M167.444,272.02H153.584a1.657,1.657,0,1,0,0,3.313h13.861a1.657,1.657,0,0,0,0-3.313Z" transform="translate(-126.759 -226.955)" fill="#f57c00"/>
+                                    <path id="XMLID_1728_" d="M289.367,272.02a1.658,1.658,0,1,0,1.171.485A1.666,1.666,0,0,0,289.367,272.02Z" transform="translate(-240.047 -226.955)" fill="#f57c00"/>
+                                    <path id="XMLID_1729_" d="M341.747,272.02a1.657,1.657,0,1,0,1.171.485A1.669,1.669,0,0,0,341.747,272.02Z" transform="translate(-283.749 -226.955)" fill="#f57c00"/>
+                                    <path id="XMLID_1741_" d="M77.874,0H6.968A6.966,6.966,0,0,0,.01,6.958V56.651a6.966,6.966,0,0,0,6.958,6.958h10.6v1.668a4.976,4.976,0,0,0,4.97,4.97H40.765v3.562a5.657,5.657,0,0,0-3.727,3.727H19.228a1.657,1.657,0,1,0,0,3.313h17.81a5.633,5.633,0,0,0,10.767,0h17.81a1.657,1.657,0,1,0,0-3.313H47.805a5.657,5.657,0,0,0-3.727-3.727V70.247H62.3a4.976,4.976,0,0,0,4.97-4.97V63.609h10.6a6.966,6.966,0,0,0,6.958-6.958V6.958A6.966,6.966,0,0,0,77.874,0ZM42.421,81.512a2.319,2.319,0,1,1,2.319-2.319A2.322,2.322,0,0,1,42.421,81.512ZM20.884,36.119V28.167a1.659,1.659,0,0,1,1.657-1.657H62.3a1.659,1.659,0,0,1,1.657,1.657v7.952A1.659,1.659,0,0,1,62.3,37.776H22.541A1.659,1.659,0,0,1,20.884,36.119Zm0,14.579V42.746a1.659,1.659,0,0,1,1.657-1.657H62.3a1.659,1.659,0,0,1,1.657,1.657V50.7A1.659,1.659,0,0,1,62.3,52.355H22.541A1.659,1.659,0,0,1,20.884,50.7ZM62.3,66.934H22.541a1.659,1.659,0,0,1-1.657-1.657V57.325a1.659,1.659,0,0,1,1.657-1.657H62.3a1.659,1.659,0,0,1,1.657,1.657v7.952A1.659,1.659,0,0,1,62.3,66.934ZM77.874,60.3h-10.6v-2.97A4.949,4.949,0,0,0,66,54.011a4.95,4.95,0,0,0,1.27-3.313V42.746A4.949,4.949,0,0,0,66,39.433a4.95,4.95,0,0,0,1.27-3.313V28.167A4.976,4.976,0,0,0,62.3,23.2H22.541a4.976,4.976,0,0,0-4.97,4.97v7.952a4.949,4.949,0,0,0,1.27,3.313,4.95,4.95,0,0,0-1.27,3.313V50.7a4.949,4.949,0,0,0,1.27,3.313,4.95,4.95,0,0,0-1.27,3.313V60.3H6.968a3.649,3.649,0,0,1-3.645-3.645V17.892H34.966a1.657,1.657,0,1,0,0-3.313H3.323V6.958A3.649,3.649,0,0,1,6.968,3.313H77.874a3.649,3.649,0,0,1,3.645,3.645v7.621H49.877a1.657,1.657,0,0,0,0,3.313H81.519V56.65A3.649,3.649,0,0,1,77.874,60.3Z" transform="translate(-0.01)" fill="#9b93ec"/>
+                                    <path id="XMLID_1759_" d="M247.667,88a1.658,1.658,0,1,0,1.171.485A1.668,1.668,0,0,0,247.667,88Z" transform="translate(-205.255 -73.421)" fill="#f57c00"/>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                                        
+                    </div>
+                    <h5 class="service-item__title">میزبانی وب</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_248" data-name="Group 248" transform="translate(-272.048 -1699.2)">
+                              <g id="Group_128" data-name="Group 128" transform="translate(0 280)">
+                                <path id="blob_1_" data-name="blob (1)" d="M122.082,17.789c10.3,3.5,15.56,7.676,21.421,23.842C149.27,57.7,154.753,76.42,147,85.306S132.7,118.2,115.022,123.4c-17.678,5.294-46.674-8.123-60.571-8.69-13.8-.473-27.037-13.046-37.719-28.55-10.682-15.6-5.951-22.021-3.4-38.848,2.552-16.922,7.128-33.819,22.537-36.466A152.13,152.13,0,0,1,80.354,9.678C96.331,11.38,111.778,14.291,122.082,17.789Z" transform="translate(443.89 1539.621) rotate(169)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="servers_4_" data-name="servers (4)" transform="translate(304.701 1450.688)">
+                                  <g id="Group_136" data-name="Group 136" transform="translate(10.667)">
+                                    <g id="Group_135" data-name="Group 135">
+                                      <path id="Path_1122" data-name="Path 1122" d="M97.68,46.025A1.68,1.68,0,1,0,96,44.346,1.68,1.68,0,0,0,97.68,46.025Z" transform="translate(-82.563 -35.948)" fill="#f57c00"/>
+                                      <path id="Path_1123" data-name="Path 1123" d="M289.68,131.359h13.437a1.68,1.68,0,1,0,0-3.359H289.68a1.68,1.68,0,1,0,0,3.359Z" transform="translate(-244.329 -107.844)" fill="#f57c00"/>
+                                      <path id="Path_1124" data-name="Path 1124" d="M289.68,46.026h13.437a1.68,1.68,0,1,0,0-3.359H289.68a1.68,1.68,0,1,0,0,3.359Z" transform="translate(-244.329 -35.948)" fill="#f57c00"/>
+                                      <path id="Path_1125" data-name="Path 1125" d="M159.324,223.411a1.68,1.68,0,0,0,1.68-1.68v-3.359a1.68,1.68,0,0,0-1.68-1.68H140.848v-1.68a1.68,1.68,0,0,0-3.359,0v1.68H119.013a1.68,1.68,0,0,0-1.68,1.68v3.359a1.68,1.68,0,1,0,3.359,0v-1.68h36.952v1.68A1.68,1.68,0,0,0,159.324,223.411Z" transform="translate(-100.537 -179.74)" fill="#f57c00"/>
+                                      <path id="Path_1126" data-name="Path 1126" d="M298.58,298.667H271.706a5.045,5.045,0,0,0-5.039,5.039v16.8a5.045,5.045,0,0,0,5.039,5.039h11.758V328.9h-5.039a1.68,1.68,0,0,0,0,3.359h13.437a1.68,1.68,0,0,0,0-3.359h-5.039v-3.359H298.58a5.045,5.045,0,0,0,5.039-5.039v-16.8A5.045,5.045,0,0,0,298.58,298.667Zm1.68,21.835a1.682,1.682,0,0,1-1.68,1.68H271.706a1.682,1.682,0,0,1-1.68-1.68v-1.68H300.26Zm0-5.039H270.026V303.706a1.682,1.682,0,0,1,1.68-1.68H298.58a1.683,1.683,0,0,1,1.68,1.68Z" transform="translate(-226.355 -251.637)" fill="#9b93ec"/>
+                                      <path id="Path_1127" data-name="Path 1127" d="M42.58,298.667H15.706a5.045,5.045,0,0,0-5.039,5.039v16.8a5.045,5.045,0,0,0,5.039,5.039H27.464V328.9H22.425a1.68,1.68,0,0,0,0,3.359H35.862a1.68,1.68,0,1,0,0-3.359H30.823v-3.359H42.58a5.045,5.045,0,0,0,5.039-5.039v-16.8A5.045,5.045,0,0,0,42.58,298.667ZM44.26,320.5a1.682,1.682,0,0,1-1.68,1.68H15.706a1.682,1.682,0,0,1-1.68-1.68v-1.68H44.26Zm0-5.039H14.026V303.706a1.682,1.682,0,0,1,1.68-1.68H42.58a1.682,1.682,0,0,1,1.68,1.68Z" transform="translate(-10.667 -251.637)" fill="#9b93ec"/>
+                                      <path id="Path_1128" data-name="Path 1128" d="M97.68,131.359A1.68,1.68,0,1,0,96,129.68,1.68,1.68,0,0,0,97.68,131.359Z" transform="translate(-82.563 -107.844)" fill="#f57c00"/>
+                                      <path id="Path_1129" data-name="Path 1129" d="M58.372,30.234h50.389a5.045,5.045,0,0,0,5.039-5.039V18.476a5,5,0,0,0-1.31-3.359,5,5,0,0,0,1.31-3.359V5.039A5.045,5.045,0,0,0,108.761,0H58.372a5.045,5.045,0,0,0-5.039,5.039v6.719a5,5,0,0,0,1.31,3.359,5,5,0,0,0-1.31,3.359v6.719A5.045,5.045,0,0,0,58.372,30.234ZM56.692,5.039a1.682,1.682,0,0,1,1.68-1.68h50.389a1.682,1.682,0,0,1,1.68,1.68v6.719a1.682,1.682,0,0,1-1.68,1.68H58.372a1.682,1.682,0,0,1-1.68-1.68V5.039Zm0,13.437a1.682,1.682,0,0,1,1.68-1.68h50.389a1.682,1.682,0,0,1,1.68,1.68v6.719a1.682,1.682,0,0,1-1.68,1.68H58.372a1.682,1.682,0,0,1-1.68-1.68V18.476Z" transform="translate(-46.615)" fill="#9b93ec"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                                         
+                    </div>
+                    <h5 class="service-item__title">مانیتورینگ</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_250" data-name="Group 250" transform="translate(-694.855 -1712.016)">
+                              <g id="Group_127" data-name="Group 127" transform="translate(0 277)">
+                                <g id="Group_249" data-name="Group 249">
+                                  <path id="blob_1_" data-name="blob (1)" d="M121.1,8.355c10.3,3.5,26.914,18.28,32.775,34.446,5.767,16.071-3.6,47.4-11.352,56.283s-20.25,2.2-37.928,7.4c-17.678,5.294-34.66,1.422-48.557.855-13.8-.473-22.518-14.955-33.2-30.459-10.682-15.6-1.918-19.533.635-36.36,2.552-16.922-2.61-27.2,12.8-29.846C51.585,8.125,63.011-1.633,78.893.163,94.869,1.865,110.795,4.857,121.1,8.355Z" transform="translate(677.195 1437.788) rotate(-1)" fill="#9b93ec" opacity="0.05"/>
+                                </g>
+                                <g id="servers_3_" data-name="servers (3)" transform="translate(715.729 1449.712)">
+                                  <g id="Group_134" data-name="Group 134" transform="translate(0 0.021)">
+                                    <g id="Group_133" data-name="Group 133">
+                                      <path id="Path_1120" data-name="Path 1120" d="M27.515,60.2a1.72,1.72,0,0,0-1.72-1.72H23.519a61.047,61.047,0,0,1-2.834-17.195H77.379a1.72,1.72,0,0,0,1.72-1.72c0-.007,0-.014,0-.021A39.594,39.594,0,0,0,39.555.021h-.007A39.553,39.553,0,0,0,25.1,76.393a1.69,1.69,0,0,0,.629.12,1.718,1.718,0,0,0,.626-3.319A36.113,36.113,0,0,1,11.139,61.922H21.05a42.771,42.771,0,0,0,2.816,5.967,1.722,1.722,0,0,0,2.985-1.716A37.771,37.771,0,0,1,24.8,61.922h1A1.72,1.72,0,0,0,27.515,60.2ZM75.571,37.849H61.856a65.152,65.152,0,0,0-2.59-17.195h10.98A35.824,35.824,0,0,1,75.571,37.849ZM67.854,17.216H58.1A34.327,34.327,0,0,0,50.814,5.283,36.228,36.228,0,0,1,67.854,17.216ZM41.271,3.632c5.189.942,9.839,6.09,13,13.584h-13Zm0,17.023H55.542a60.144,60.144,0,0,1,2.875,17.195H41.271ZM37.832,37.849H20.685A60.146,60.146,0,0,1,23.56,20.655H37.832Zm0-34.217V17.216h-13C27.993,9.722,32.642,4.574,37.832,3.632Zm-9.54,1.647a34.4,34.4,0,0,0-7.287,11.937H11.242A36.222,36.222,0,0,1,28.292,5.279ZM8.848,20.655H19.836a65.152,65.152,0,0,0-2.59,17.195H3.525A35.824,35.824,0,0,1,8.848,20.655ZM8.762,58.483A35.977,35.977,0,0,1,3.5,41.288H17.246a64.539,64.539,0,0,0,2.62,17.195Z" transform="translate(0 -0.021)" fill="#9b93ec"/>
+                                      <path id="Path_1121" data-name="Path 1121" d="M240.167,291.427v-8.914a5.165,5.165,0,0,0-5.158-5.158H200.619a5.165,5.165,0,0,0-5.158,5.158v2.036a5.149,5.149,0,0,0-3.439,4.842v20.634a5.165,5.165,0,0,0,5.158,5.158h41.267a5.17,5.17,0,0,0,5.162-5.158V296.269A5.152,5.152,0,0,0,240.167,291.427ZM198.9,282.513a1.722,1.722,0,0,1,1.72-1.72h34.389a1.722,1.722,0,0,1,1.72,1.72v8.6H215.9c-.64-.038-2.215-1.922-3.064-2.933-1.7-2.029-3.3-3.944-5.337-3.944h-8.6v-1.72Zm41.267,27.511a1.722,1.722,0,0,1-1.72,1.72H197.18a1.722,1.722,0,0,1-1.72-1.72V289.391a1.722,1.722,0,0,1,1.72-1.72l10.276,0c.574.124,1.933,1.744,2.741,2.717,1.713,2.046,3.484,4.165,5.695,4.165h22.556a1.722,1.722,0,0,1,1.72,1.72Z" transform="translate(-161.068 -232.649)" fill="#f57c00"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                                        
+                    </div>
+                    <h5 class="service-item__title"> میزبانی فایل</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_251" data-name="Group 251" transform="translate(-1080.459 -1688.354)">
+                              <g id="Group_126" data-name="Group 126" transform="translate(0 280)">
+                                <path id="blob_1_" data-name="blob (1)" d="M131.216,2.107c11,3.732,14.995,24.577,21.249,41.826,6.153,17.149,4.785,26.5-3.487,35.982s-12.72,29.435-31.584,34.983c-18.864,5.649-58.68,19.232-73.508,18.627-14.728-.5-15.3-25.537-26.694-42.08C5.793,74.8,18.526,64.555,21.25,46.6c2.724-18.057-.378-29.758,16.065-32.583,16.342-2.724,30.819-6.1,47.766-4.179C102.129,11.653,120.221-1.626,131.216,2.107Z" transform="matrix(-0.978, -0.208, 0.208, -0.978, 1233.029, 1571.473)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="ssl" transform="translate(1067.869 1444.402)">
+                                  <g id="Group_132" data-name="Group 132" transform="translate(64.003 -0.001)">
+                                    <g id="Group_131" data-name="Group 131">
+                                      <path id="Path_1116" data-name="Path 1116" d="M128.05,10.979,97.234.1a1.81,1.81,0,0,0-1.207,0L65.212,10.979A1.815,1.815,0,0,0,64,12.689V34.441c0,28.149,4.174,38.438,31.812,52.372a1.807,1.807,0,0,0,1.632,0c27.638-13.935,31.812-24.223,31.812-52.372V12.689A1.816,1.816,0,0,0,128.05,10.979Zm-2.416,23.462c0,26.961-3.438,35.688-29,48.722-25.565-13.034-29-21.761-29-48.722V13.972l29-10.237,29,10.237V34.441Z" transform="translate(-64.003 0.001)" fill="#9b93ec"/>
+                                      <path id="Path_1117" data-name="Path 1117" d="M311.149,210.131H318.4a1.813,1.813,0,0,0,0-3.625h-5.438V193.817a1.813,1.813,0,1,0-3.625,0v14.5A1.812,1.812,0,0,0,311.149,210.131Z" transform="translate(-267.645 -159.375)" fill="#f57c00"/>
+                                      <path id="Path_1118" data-name="Path 1118" d="M144.107,195.63h3.625a1.813,1.813,0,0,0,0-3.625h-3.625a5.438,5.438,0,0,0,0,10.876,1.813,1.813,0,1,1,0,3.625h-3.625a1.813,1.813,0,1,0,0,3.625h3.625a5.438,5.438,0,1,0,0-10.876,1.813,1.813,0,0,1,0-3.625Z" transform="translate(-125.981 -159.376)" fill="#f57c00"/>
+                                      <path id="Path_1119" data-name="Path 1119" d="M224,197.443a5.444,5.444,0,0,0,5.438,5.438,1.813,1.813,0,1,1,0,3.625h-3.625a1.813,1.813,0,0,0,0,3.625h3.625a5.438,5.438,0,1,0,0-10.876,1.813,1.813,0,0,1,0-3.625h3.625a1.813,1.813,0,0,0,0-3.625h-3.625A5.444,5.444,0,0,0,224,197.443Z" transform="translate(-196.813 -159.376)" fill="#f57c00"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                                      
+                    </div>
+                    <h5 class="service-item__title">SSL گواهینامه</h5>
+                </div>
+                <div class="service-item">
+                    <div class="service-item__image">
+                        <svg class="service-item__img" width="149.602" height="119.28" viewBox="0 0 149.602 119.28">
+                            <g id="Group_252" data-name="Group 252" transform="translate(-1484.946 -1697.096)">
+                              <g id="Group_125" data-name="Group 125" transform="translate(0 280)">
+                                <path id="blob_1_" data-name="blob (1)" d="M121.1,8.355c10.3,3.5,16.544,17.111,22.4,33.276C149.27,57.7,154.753,76.42,147,85.306s-28.833,7.846-46.511,13.046c-17.678,5.294-32.142,16.922-46.039,16.355-13.8-.473-27.037-13.046-37.719-28.55C6.05,70.559-2.08,52.124.472,35.3,3.025,18.375,16.354,3.061,31.763.414,47.078-2.139,64.472,7.882,80.354,9.678,96.331,11.38,110.795,4.857,121.1,8.355Z" transform="translate(1659.054 1528.414) rotate(166)" fill="#9b93ec" opacity="0.05"/>
+                                <g id="servers_2_" data-name="servers (2)" transform="translate(1527.26 1410.762)">
+                                  <g id="Group_130" data-name="Group 130" transform="translate(0 43.015)">
+                                    <g id="Group_129" data-name="Group 129" transform="translate(0 0)">
+                                      <path id="Path_1109" data-name="Path 1109" d="M172.53,89.409a1.864,1.864,0,1,0-1.864-1.864A1.865,1.865,0,0,0,172.53,89.409Z" transform="translate(-140.841 -78.225)" fill="#f57c00"/>
+                                      <path id="Path_1110" data-name="Path 1110" d="M364.53,89.409h14.912a1.864,1.864,0,0,0,0-3.728H364.53a1.864,1.864,0,0,0,0,3.728Z" transform="translate(-299.289 -78.225)" fill="#f57c00"/>
+                                      <path id="Path_1111" data-name="Path 1111" d="M129.864,69.112a1.865,1.865,0,0,0,1.864-1.864V63.519a1.867,1.867,0,0,1,1.864-1.864h55.921a1.867,1.867,0,0,1,1.864,1.864v7.456a1.867,1.867,0,0,1-1.864,1.864H144.776a1.864,1.864,0,1,0,0,3.728h44.737a1.867,1.867,0,0,1,1.864,1.864v7.456a1.864,1.864,0,1,0,3.728,0V78.432a5.55,5.55,0,0,0-1.454-3.728,5.551,5.551,0,0,0,1.454-3.728V63.52a5.55,5.55,0,0,0-1.454-3.728,5.551,5.551,0,0,0,1.454-3.728V48.607a5.6,5.6,0,0,0-5.592-5.592H133.592A5.6,5.6,0,0,0,128,48.607v7.456a5.55,5.55,0,0,0,1.454,3.728A5.551,5.551,0,0,0,128,63.519v3.728A1.865,1.865,0,0,0,129.864,69.112Zm1.864-20.5a1.867,1.867,0,0,1,1.864-1.864h55.921a1.867,1.867,0,0,1,1.864,1.864v7.456a1.867,1.867,0,0,1-1.864,1.864H133.592a1.867,1.867,0,0,1-1.864-1.864Z" transform="translate(-105.632 -43.015)" fill="#9b93ec"/>
+                                      <path id="Path_1112" data-name="Path 1112" d="M364.53,256.348a1.864,1.864,0,0,0,0,3.728h14.912a1.864,1.864,0,0,0,0-3.728Z" transform="translate(-299.289 -219.067)" fill="#f57c00"/>
+                                      <path id="Path_1113" data-name="Path 1113" d="M89.284,240.817a12.174,12.174,0,0,0-13.932-6.409l-12.083,3.02c-.537-4.656-3.292-7.4-8.806-8.787l-32.341-7.18c.1-.708.179-1.383.235-2.013a1.868,1.868,0,0,0-.574-1.517c-3.2-3.027-15.971-4.008-19.811-4.235a1.927,1.927,0,0,0-1.387.5A1.864,1.864,0,0,0,0,215.556v33.553a1.865,1.865,0,0,0,1.864,1.864H13.048a1.864,1.864,0,0,0,1.771-1.283c.048-.153.306-.936.686-2.151l26.712,8.906c3.132,1.182,5.3,1.868,7.725,1.868,3.78,0,8.209-1.655,17.94-5.641l20.5-9.32a1.866,1.866,0,0,0,.9-2.535Zm-77.6,6.427H3.728V217.554c5.991.473,12.456,1.5,14.808,2.643C17.544,228.362,13.074,242.864,11.688,247.245Zm54.717,2c-15.673,6.423-16.221,6.218-22.935,3.683L16.6,243.975c1.532-5.074,3.665-12.6,4.888-18.834l32.117,7.136c4.127,1.029,5.79,2.658,6.017,6.062l-3.579.895a9.4,9.4,0,0,1-4.09.1l-16.176-3.236a1.863,1.863,0,1,0-.727,3.654l16.176,3.236a13.1,13.1,0,0,0,2.558.25,12.923,12.923,0,0,0,3.165-.388l5-1.249h.022l14.282-3.571a8.49,8.49,0,0,1,8.631,2.818Z" transform="translate(0 -183.867)" fill="#9b93ec"/>
+                                      <path id="Path_1114" data-name="Path 1114" d="M170.667,172.879a1.864,1.864,0,1,0,1.864-1.864A1.865,1.865,0,0,0,170.667,172.879Z" transform="translate(-140.842 -148.647)" fill="#f57c00"/>
+                                      <path id="Path_1115" data-name="Path 1115" d="M379.443,174.742a1.864,1.864,0,1,0,0-3.728H364.531a1.864,1.864,0,1,0,0,3.728Z" transform="translate(-299.29 -148.646)" fill="#f57c00"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                 
+                    </div>
+                    <h5 class="service-item__title">نمایندگی</h5>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="security">
+        <div class="container">
+            <div class="security__wrapper">
+                
+            <div class="security-picture">
+                    <img class="security-picture__img" src="img/security_img.png" alt="security Image ">
+            </div>
+            <div class="security-content">
+                <h4 class="security-content__caption">امنیت بالای میزبانی وب یاس سرور</h4>
+                <h2 class="security-content__title">! نگران امنیت سایت خود نباشید</h2>
+                <p class="security-content__description">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است
+                    چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی
+                  مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+                </p>
+                <div class="security-content-boxs">
+                    <div class="security-content-box">
+                        <div class="security-content-box__icons">
+                        <svg class="security-content-box__icon" width="37" height="37" viewBox="0 0 37 37">
+                            <g id="Group_244" data-name="Group 244" transform="translate(-817 -2646)">
+                              <g id="Group_219" data-name="Group 219" transform="translate(-68 82)">
+                                <g id="Group_218" data-name="Group 218" transform="translate(14 9)">
+                                  <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(871 2555)" fill="#fff" stroke="#4caf50" stroke-width="2">
+                                    <rect width="37" height="37" rx="10" stroke="none"/>
+                                    <rect x="1" y="1" width="35" height="35" rx="9" fill="none"/>
+                                  </g>
+                                  <g id="Layer_2" data-name="Layer 2" transform="translate(877.24 2561.24)">
+                                    <g id="checkmark" transform="translate(0 0)">
+                                      <rect id="Rectangle_129" data-name="Rectangle 129" width="25" height="25" transform="translate(-0.24 -0.24)" fill="#4caf50" opacity="0"/>
+                                      <path id="Path_1275" data-name="Path 1275" d="M10.17,18.636A1.053,1.053,0,0,1,9.4,18.3L4.284,12.856a1.054,1.054,0,1,1,1.537-1.442l4.338,4.622L19.013,6.35a1.053,1.053,0,1,1,1.558,1.411L10.949,18.289a1.053,1.053,0,0,1-.769.347Z" transform="translate(0.118 0.221)" fill="#4caf50"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>                                                  
+                        <p class="security-content-box__caption">سرویس های Anti DDos سخت افزاری و نرم افزاری </p>
+                    </div>
+                    <div class="security-content-box">
+                        <div class="security-content-box__icons">
+                        <svg class="security-content-box__icon" width="37" height="37" viewBox="0 0 37 37">
+                            <g id="Group_244" data-name="Group 244" transform="translate(-817 -2646)">
+                              <g id="Group_219" data-name="Group 219" transform="translate(-68 82)">
+                                <g id="Group_218" data-name="Group 218" transform="translate(14 9)">
+                                  <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(871 2555)" fill="#fff" stroke="#4caf50" stroke-width="2">
+                                    <rect width="37" height="37" rx="10" stroke="none"/>
+                                    <rect x="1" y="1" width="35" height="35" rx="9" fill="none"/>
+                                  </g>
+                                  <g id="Layer_2" data-name="Layer 2" transform="translate(877.24 2561.24)">
+                                    <g id="checkmark" transform="translate(0 0)">
+                                      <rect id="Rectangle_129" data-name="Rectangle 129" width="25" height="25" transform="translate(-0.24 -0.24)" fill="#4caf50" opacity="0"/>
+                                      <path id="Path_1275" data-name="Path 1275" d="M10.17,18.636A1.053,1.053,0,0,1,9.4,18.3L4.284,12.856a1.054,1.054,0,1,1,1.537-1.442l4.338,4.622L19.013,6.35a1.053,1.053,0,1,1,1.558,1.411L10.949,18.289a1.053,1.053,0,0,1-.769.347Z" transform="translate(0.118 0.221)" fill="#4caf50"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg> 
+                        </div>                                                 
+                        <p class="security-content-box__caption">لایسنس های اورجینال شامل SSL و آنتی شل </p>
+                    </div>
+                    <div class="security-content-box">
+                        <div class="security-content-box__icons">
+                        <svg class="security-content-box__icon" width="37" height="37" viewBox="0 0 37 37">
+                            <g id="Group_244" data-name="Group 244" transform="translate(-817 -2646)">
+                              <g id="Group_219" data-name="Group 219" transform="translate(-68 82)">
+                                <g id="Group_218" data-name="Group 218" transform="translate(14 9)">
+                                  <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(871 2555)" fill="#fff" stroke="#4caf50" stroke-width="2">
+                                    <rect width="37" height="37" rx="10" stroke="none"/>
+                                    <rect x="1" y="1" width="35" height="35" rx="9" fill="none"/>
+                                  </g>
+                                  <g id="Layer_2" data-name="Layer 2" transform="translate(877.24 2561.24)">
+                                    <g id="checkmark" transform="translate(0 0)">
+                                      <rect id="Rectangle_129" data-name="Rectangle 129" width="25" height="25" transform="translate(-0.24 -0.24)" fill="#4caf50" opacity="0"/>
+                                      <path id="Path_1275" data-name="Path 1275" d="M10.17,18.636A1.053,1.053,0,0,1,9.4,18.3L4.284,12.856a1.054,1.054,0,1,1,1.537-1.442l4.338,4.622L19.013,6.35a1.053,1.053,0,1,1,1.558,1.411L10.949,18.289a1.053,1.053,0,0,1-.769.347Z" transform="translate(0.118 0.221)" fill="#4caf50"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                  
+                        </div>
+                        <p class="security-content-box__caption">کانفیگ های امنیتی برای تشخیص و جلوگیری از حملات</p>
+                    </div>
+                    <div class="security-content-box">
+                        <div class="security-content-box__icons">
+                        <svg class="security-content-box__icon" width="37" height="37" viewBox="0 0 37 37">
+                            <g id="Group_244" data-name="Group 244" transform="translate(-817 -2646)">
+                              <g id="Group_219" data-name="Group 219" transform="translate(-68 82)">
+                                <g id="Group_218" data-name="Group 218" transform="translate(14 9)">
+                                  <g id="Rectangle_130" data-name="Rectangle 130" transform="translate(871 2555)" fill="#fff" stroke="#4caf50" stroke-width="2">
+                                    <rect width="37" height="37" rx="10" stroke="none"/>
+                                    <rect x="1" y="1" width="35" height="35" rx="9" fill="none"/>
+                                  </g>
+                                  <g id="Layer_2" data-name="Layer 2" transform="translate(877.24 2561.24)">
+                                    <g id="checkmark" transform="translate(0 0)">
+                                      <rect id="Rectangle_129" data-name="Rectangle 129" width="25" height="25" transform="translate(-0.24 -0.24)" fill="#4caf50" opacity="0"/>
+                                      <path id="Path_1275" data-name="Path 1275" d="M10.17,18.636A1.053,1.053,0,0,1,9.4,18.3L4.284,12.856a1.054,1.054,0,1,1,1.537-1.442l4.338,4.622L19.013,6.35a1.053,1.053,0,1,1,1.558,1.411L10.949,18.289a1.053,1.053,0,0,1-.769.347Z" transform="translate(0.118 0.221)" fill="#4caf50"/>
+                                    </g>
+                                  </g>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>
+                        </div>                                                  
+                        <p class="security-content-box__caption">مشاوره جـهت مدیریت ریسک و امنــیت سرورها </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+    <section class="pricing">
+        <div class="container">
+            <div class="section-heading">
+                <h4 class="section-heading__caption">میزبانی وب حرفه ای و مطمئن</h4>
+                <h2 class="section-heading__title">شروع قیمت پلن های منتخب</h2>
+            </div>
+            <div class="pricing__wrapper">
+                <div class="pricing-item">
+                    <div class="pricing-item-picture">
+                        <svg class="pricing-item__img" width="133.174" height="133.179" viewBox="0 0 133.174 133.179">
+                            <g id="XMLID_217_" transform="translate(0)">
+                              <path id="XMLID_218_" d="M104.611,44a2.6,2.6,0,1,0,1.839.762A2.62,2.62,0,0,0,104.611,44Z" transform="translate(-75.479 -32.555)" fill="#f57c00"/>
+                              <path id="XMLID_1591_" d="M56.611,44a2.6,2.6,0,1,0,1.839.762A2.62,2.62,0,0,0,56.611,44Z" transform="translate(-39.964 -32.555)" fill="#f57c00"/>
+                              <path id="XMLID_1675_" d="M152.611,44a2.6,2.6,0,1,0,1.839.762A2.62,2.62,0,0,0,152.611,44Z" transform="translate(-110.994 -32.555)" fill="#f57c00"/>
+                              <path id="XMLID_1676_" d="M176.29,360.02H154.528a2.6,2.6,0,0,0,0,5.2H176.29a2.6,2.6,0,0,0,0-5.2Z" transform="translate(-112.413 -266.377)" fill="#f57c00"/>
+                              <path id="XMLID_1678_" d="M290.311,360.02a2.6,2.6,0,1,0,1.839.762A2.615,2.615,0,0,0,290.311,360.02Z" transform="translate(-212.878 -266.377)" fill="#f57c00"/>
+                              <path id="XMLID_1682_" d="M342.691,360.02a2.6,2.6,0,1,0,1.839.762A2.621,2.621,0,0,0,342.691,360.02Z" transform="translate(-251.633 -266.377)" fill="#f57c00"/>
+                              <path id="XMLID_1683_" d="M176.29,184.02H154.528a2.6,2.6,0,1,0,0,5.2H176.29a2.6,2.6,0,0,0,0-5.2Z" transform="translate(-112.413 -136.156)" fill="#f57c00"/>
+                              <path id="XMLID_1686_" d="M290.311,184.02a2.6,2.6,0,1,0,1.839.762A2.62,2.62,0,0,0,290.311,184.02Z" transform="translate(-212.878 -136.156)" fill="#f57c00"/>
+                              <path id="XMLID_1726_" d="M342.691,184.02a2.6,2.6,0,1,0,1.839.762A2.621,2.621,0,0,0,342.691,184.02Z" transform="translate(-251.633 -136.156)" fill="#f57c00"/>
+                              <path id="XMLID_1727_" d="M176.29,272.02H154.528a2.6,2.6,0,1,0,0,5.2H176.29a2.6,2.6,0,1,0,0-5.2Z" transform="translate(-112.413 -201.266)" fill="#f57c00"/>
+                              <path id="XMLID_1728_" d="M290.311,272.02a2.6,2.6,0,1,0,1.839.762A2.615,2.615,0,0,0,290.311,272.02Z" transform="translate(-212.878 -201.266)" fill="#f57c00"/>
+                              <path id="XMLID_1729_" d="M342.691,272.02a2.6,2.6,0,1,0,1.839.762A2.621,2.621,0,0,0,342.691,272.02Z" transform="translate(-251.633 -201.266)" fill="#f57c00"/>
+                              <path id="XMLID_1741_" d="M122.259,0H10.934A10.937,10.937,0,0,0,.01,10.924V88.943A10.937,10.937,0,0,0,10.934,99.867H27.581v2.619a7.812,7.812,0,0,0,7.8,7.8H64v5.593a8.882,8.882,0,0,0-5.852,5.852H30.182a2.6,2.6,0,1,0,0,5.2H58.144a8.844,8.844,0,0,0,16.905,0h27.962a2.6,2.6,0,1,0,0-5.2H75.05a8.882,8.882,0,0,0-5.852-5.852V110.29H97.81a7.812,7.812,0,0,0,7.8-7.8V99.867h16.647a10.937,10.937,0,0,0,10.924-10.924V10.924A10.937,10.937,0,0,0,122.259,0ZM66.6,127.977a3.641,3.641,0,1,1,3.641-3.641A3.645,3.645,0,0,1,66.6,127.977ZM32.783,56.708V44.223a2.6,2.6,0,0,1,2.6-2.6H97.81a2.6,2.6,0,0,1,2.6,2.6V56.708a2.6,2.6,0,0,1-2.6,2.6H35.384A2.6,2.6,0,0,1,32.783,56.708Zm0,22.889V67.112a2.6,2.6,0,0,1,2.6-2.6H97.81a2.6,2.6,0,0,1,2.6,2.6V79.6a2.6,2.6,0,0,1-2.6,2.6H35.384A2.6,2.6,0,0,1,32.783,79.6Zm65.026,25.49H35.384a2.6,2.6,0,0,1-2.6-2.6V90a2.6,2.6,0,0,1,2.6-2.6H97.81a2.6,2.6,0,0,1,2.6,2.6v12.485A2.6,2.6,0,0,1,97.81,105.088Zm24.45-10.422H105.613V90a7.77,7.77,0,0,0-1.993-5.2,7.771,7.771,0,0,0,1.993-5.2V67.112a7.77,7.77,0,0,0-1.993-5.2,7.771,7.771,0,0,0,1.993-5.2V44.223a7.812,7.812,0,0,0-7.8-7.8H35.384a7.812,7.812,0,0,0-7.8,7.8V56.708a7.77,7.77,0,0,0,1.993,5.2,7.771,7.771,0,0,0-1.993,5.2V79.6a7.77,7.77,0,0,0,1.993,5.2A7.771,7.771,0,0,0,27.581,90v4.664H10.934a5.729,5.729,0,0,1-5.722-5.722V28.091h49.68a2.6,2.6,0,1,0,0-5.2H5.212V10.924A5.729,5.729,0,0,1,10.934,5.2H122.259a5.729,5.729,0,0,1,5.722,5.722V22.889H78.3a2.6,2.6,0,0,0,0,5.2h49.68V88.943A5.729,5.729,0,0,1,122.259,94.665Z" transform="translate(-0.01)" fill="#9b93ec"/>
+                              <path id="XMLID_1759_" d="M248.611,88a2.6,2.6,0,1,0,1.839.762A2.62,2.62,0,0,0,248.611,88Z" transform="translate(-182.024 -65.111)" fill="#f57c00"/>
+                            </g>
+                          </svg>                          
+                    </div>
+                    <h5 class="pricing-item__title">میزبانی وب</h5>
+                    <p class="pricing-item__caption">چابکی، سادگی و پایداری
+                        نصب رایگان سیستم مدیریت سایت
+                        سیستم RAID برای اطمینان بیشتر
+                        کنترل‌پنل مدیریت هاست
+                    </p>
+                    <span class="pricing-item__price">از ماهانه 60 هزار تومان</span>
+                    <a href="#" class="app-btn-lg pricing-item__btn">مشاهده پلن ها</a>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-item-picture">  
+                          <svg class="pricing-item__img" width="125.997" height="125.991" viewBox="0 0 125.997 125.991">
+                            <g id="Group_119" data-name="Group 119">
+                              <path id="Path_1099" data-name="Path 1099" d="M300.624,405.323h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -305.581)" fill="#f57c00"/>
+                              <path id="Path_1100" data-name="Path 1100" d="M300.624,447.989h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -337.747)" fill="#f57c00"/>
+                              <path id="Path_1101" data-name="Path 1101" d="M50.542,405.323a7.875,7.875,0,1,0,7.875,7.875A7.884,7.884,0,0,0,50.542,405.323Zm0,10.5a2.625,2.625,0,1,1,2.625-2.625A2.626,2.626,0,0,1,50.542,415.823Z" transform="translate(-32.167 -305.581)" fill="#f57c00"/>
+                              <path id="Path_1102" data-name="Path 1102" d="M50.542,277.323a7.875,7.875,0,1,0,7.875,7.875A7.884,7.884,0,0,0,50.542,277.323Zm0,10.5a2.625,2.625,0,1,1,2.625-2.625A2.626,2.626,0,0,1,50.542,287.823Z" transform="translate(-32.167 -209.08)" fill="#f57c00"/>
+                              <path id="Path_1103" data-name="Path 1103" d="M300.624,191.989h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -144.746)" fill="#f57c00"/>
+                              <path id="Path_1104" data-name="Path 1104" d="M126,49.879V39.38a13.01,13.01,0,0,0-1.99-6.862c-.037-.074-.042-.157-.084-.226L107.691,6.2A13.048,13.048,0,0,0,96.545.011H29.467A13.042,13.042,0,0,0,18.322,6.2L2.09,32.292c-.026.042-.026.089-.052.137A13.019,13.019,0,0,0,0,39.38v10.5a13.076,13.076,0,0,0,5.334,10.5A13.083,13.083,0,0,0,0,70.879v10.5a13.076,13.076,0,0,0,5.334,10.5A13.083,13.083,0,0,0,0,102.378v10.5A13.143,13.143,0,0,0,13.125,126h99.747A13.143,13.143,0,0,0,126,112.878v-10.5a13.076,13.076,0,0,0-5.334-10.5A13.075,13.075,0,0,0,126,81.379v-10.5a13.076,13.076,0,0,0-5.334-10.5A13.068,13.068,0,0,0,126,49.879ZM22.779,8.973a7.82,7.82,0,0,1,6.683-3.717H96.54a7.819,7.819,0,0,1,6.683,3.717l10.831,17.4c-.394-.037-.777-.121-1.181-.121H13.125c-.4,0-.782.084-1.176.121Zm97.968,93.405v10.5a7.884,7.884,0,0,1-7.875,7.875H13.125a7.884,7.884,0,0,1-7.875-7.875v-10.5A7.884,7.884,0,0,1,13.125,94.5h99.747A7.885,7.885,0,0,1,120.747,102.378Zm0-31.5v10.5a7.884,7.884,0,0,1-7.875,7.875H13.125A7.884,7.884,0,0,1,5.25,81.379v-10.5A7.884,7.884,0,0,1,13.125,63h99.747A7.885,7.885,0,0,1,120.747,70.879Zm0-21a7.884,7.884,0,0,1-7.875,7.875H13.125A7.884,7.884,0,0,1,5.25,49.879V39.38A7.884,7.884,0,0,1,13.125,31.5h99.747a7.884,7.884,0,0,1,7.875,7.875v10.5Z" transform="translate(0 -0.011)" fill="#9b93ec"/>
+                              <path id="Path_1105" data-name="Path 1105" d="M300.624,149.323h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -112.579)" fill="#f57c00"/>
+                              <path id="Path_1106" data-name="Path 1106" d="M300.624,319.989h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -241.246)" fill="#f57c00"/>
+                              <path id="Path_1107" data-name="Path 1107" d="M300.624,277.323h-42a2.625,2.625,0,1,0,0,5.25h42a2.625,2.625,0,1,0,0-5.25Z" transform="translate(-193.002 -209.08)" fill="#f57c00"/>
+                              <path id="Path_1108" data-name="Path 1108" d="M50.542,149.323a7.875,7.875,0,1,0,7.875,7.875A7.884,7.884,0,0,0,50.542,149.323Zm0,10.5a2.625,2.625,0,1,1,2.625-2.625A2.626,2.626,0,0,1,50.542,159.823Z" transform="translate(-32.167 -112.579)" fill="#f57c00"/>
+                            </g>
+                          </svg>                          
+                    </div>
+                    <h5 class="pricing-item__title">سرور اختصاصی</h5>
+                    <p class="pricing-item__caption">چابکی، سادگی و پایداری
+                        نصب رایگان سیستم مدیریت سایت
+                        سیستم RAID برای اطمینان بیشتر
+                        کنترل‌پنل مدیریت هاست</p>
+                    <span class="pricing-item__price">از ماهانه 200 هزار تومان</span>
+                    <a href="#" class="app-btn-lg pricing-item__btn">مشاهده پلن ها</a>
+                </div>
+                <div class="pricing-item">
+                    <div class="pricing-item-picture">
+                        <svg class="pricing-item__img" width="129.821" height="129.81" viewBox="0 0 129.821 129.81">
+                            <g id="servers_3_" data-name="servers (3)" transform="translate(0 -0.021)">
+                              <g id="Group_134" data-name="Group 134" transform="translate(0 0.021)">
+                                <g id="Group_133" data-name="Group 133">
+                                  <path id="Path_1120" data-name="Path 1120" d="M43.276,94.675a2.706,2.706,0,0,0-2.7-2.7H36.99a96.015,96.015,0,0,1-4.457-27.044H121.7a2.706,2.706,0,0,0,2.7-2.7c0-.011-.005-.022-.005-.032A62.273,62.273,0,0,0,62.212.021H62.2A62.209,62.209,0,0,0,39.484,120.139a2.658,2.658,0,0,0,.99.189,2.7,2.7,0,0,0,.984-5.22,56.8,56.8,0,0,1-23.939-17.73H33.107a67.272,67.272,0,0,0,4.43,9.384,2.708,2.708,0,0,0,4.695-2.7A59.407,59.407,0,0,1,39,97.379h1.569A2.7,2.7,0,0,0,43.276,94.675Zm75.582-35.157H97.288a102.472,102.472,0,0,0-4.073-27.044h17.27A56.344,56.344,0,0,1,118.858,59.518ZM106.72,27.065H91.376A53.99,53.99,0,0,0,79.92,8.3,56.98,56.98,0,0,1,106.72,27.065ZM64.911,5.7c8.162,1.482,15.475,9.579,20.44,21.365H64.911Zm0,26.773H87.357a94.6,94.6,0,0,1,4.522,27.044H64.911ZM59.5,59.518H32.534a94.6,94.6,0,0,1,4.522-27.044H59.5ZM59.5,5.7V27.065H39.062C44.027,15.279,51.34,7.182,59.5,5.7Zm-15,2.591c-4.592,4.657-8.513,11.05-11.461,18.774H17.681A56.969,56.969,0,0,1,44.5,8.291ZM13.917,32.474H31.2a102.472,102.472,0,0,0-4.073,27.044H5.544A56.344,56.344,0,0,1,13.917,32.474Zm-.135,59.5a56.585,56.585,0,0,1-8.27-27.044H27.125A101.507,101.507,0,0,0,31.246,91.97Z" transform="translate(0 -0.021)" fill="#9b93ec"/>
+                                  <path id="Path_1121" data-name="Path 1121" d="M267.745,299.488V285.468a8.123,8.123,0,0,0-8.113-8.113H205.544a8.123,8.123,0,0,0-8.113,8.113v3.2a8.1,8.1,0,0,0-5.409,7.615v32.453a8.123,8.123,0,0,0,8.113,8.113H265.04a8.131,8.131,0,0,0,8.118-8.113V307.1A8.1,8.1,0,0,0,267.745,299.488Zm-64.905-14.019a2.709,2.709,0,0,1,2.7-2.7h54.088a2.709,2.709,0,0,1,2.7,2.7V298.99H229.575c-1.006-.06-3.483-3.023-4.819-4.614-2.666-3.191-5.187-6.2-8.394-6.2H202.84v-2.7Zm64.905,43.27a2.709,2.709,0,0,1-2.7,2.7H200.135a2.709,2.709,0,0,1-2.7-2.7V296.286a2.709,2.709,0,0,1,2.7-2.7l16.161-.005c.9.195,3.04,2.742,4.311,4.273,2.694,3.218,5.479,6.55,8.957,6.55H265.04a2.709,2.709,0,0,1,2.7,2.7Z" transform="translate(-143.338 -207.041)" fill="#f57c00"/>
+                                </g>
+                              </g>
+                            </g>
+                          </svg>                                                   
+                    </div>
+                    <h5 class="pricing-item__title">میزبانی فایل</h5>
+                    <p class="pricing-item__caption">چابکی، سادگی و پایداری
+                        نصب رایگان سیستم مدیریت سایت
+                        سیستم RAID برای اطمینان بیشتر
+                        کنترل‌پنل مدیریت هاست
+                    </p>
+                    <span class="pricing-item__price">از ماهانه 30 هزار تومان</span>
+                    <a href="#" class="app-btn-lg pricing-item__btn">مشاهده پلن ها</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="comment">
+      <div class="container">
+        <h2 class="comment__title">مشتریان در باره ما چه می گویند ؟</h2>
+        <div class="comment__pic">
+          <svg class="comment__icon" width="70" height="70" viewBox="0 0 90 90">
+            <g id="Group_240" data-name="Group 240" transform="translate(-915 -4286)">
+              <circle id="Ellipse_13" data-name="Ellipse 13" cx="45" cy="45" r="45" transform="translate(915 4286)" fill="#fff" opacity="0.28"/>
+              <g id="left-quote_1_" data-name="left-quote (1)" transform="translate(939.27 4305.83)">
+                <g id="Group_230" data-name="Group 230" transform="translate(0 7.858)">
+                  <path id="Path_1277" data-name="Path 1277" d="M13.27,23.55a10.986,10.986,0,0,0-3.036-.443,9.539,9.539,0,0,0-3.806.78c.957-3.5,3.255-9.546,7.834-10.227a1.088,1.088,0,0,0,.887-.782l1-3.579a1.087,1.087,0,0,0-.9-1.37,7.6,7.6,0,0,0-1.024-.07c-5.5,0-10.939,5.736-13.235,13.95C-.357,26.627-.752,33.871,2.569,38.431a9.915,9.915,0,0,0,8.058,4.05h.043a9.646,9.646,0,0,0,2.6-18.932Z" transform="translate(0 -7.858)" fill="#fff"/>
+                  <path id="Path_1278" data-name="Path 1278" d="M67.694,28.1a9.668,9.668,0,0,0-5.8-4.555,10.985,10.985,0,0,0-3.035-.443,9.542,9.542,0,0,0-3.807.78c.957-3.5,3.255-9.546,7.834-10.227a1.088,1.088,0,0,0,.887-.782l1-3.579a1.087,1.087,0,0,0-.9-1.37,7.591,7.591,0,0,0-1.024-.07c-5.5,0-10.939,5.736-13.236,13.95-1.348,4.819-1.743,12.063,1.578,16.624a9.913,9.913,0,0,0,8.058,4.05H59.3a9.646,9.646,0,0,0,8.4-14.378Z" transform="translate(-27.479 -7.858)" fill="#fff"/>
+                </g>
+              </g>
+            </g>
+          </svg>          
+        </div>
+
+        <div class="swiper comment-swiper">
+          <div class="swiper-wrapper">
+        
+            <div class="swiper-slide">
+        
+              <div class="comment-slider">
+                <p class="comment-slider__text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ 
+                  و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                   کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                </p>
+                <div class="comment-slider__property">
+                <div class="comment-slider__users">
+                  <div class="comment-slider__image">
+                    <img class="comment-slider__img" src="img/user_img-1.png" alt="user image">
+                  </div>
+                  <div class="comment-slider-user">
+                    <span class="comment-slider-user__name">اسماعیل شبانی</span>
+                    <span class="comment-slider-user__job">مدیریت و معاون فلان شرکت</span>
+                  </div>
+                </div>
+                <div class="comment-slider__stars">
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>      
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star comment-slider__star--white" width="24" height="24" viewBox="0 0 24 24">
+                    <rect id="Rectangle_179" data-name="Rectangle 179" width="24" height="24" transform="translate(24) rotate(90)" fill="#fa0" opacity="0"/>
+                    <path id="Path_2019" data-name="Path 2019" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21ZM12,16.1a.92.92,0,0,1,.46.11l3.77,2L15.51,14a1,1,0,0,1,.29-.89l3-2.93-4.2-.62A1,1,0,0,1,13.89,9L12,5.25,10.11,9a1,1,0,0,1-.75.54l-4.2.62,3,2.93a1,1,0,0,1,.29.89l-.72,4.16,3.77-2a.92.92,0,0,1,.5-.04Z" fill="#fa0"/>
+                  </svg>            
+                </div>
+              </div>
+              </div>
+        
+            </div>
+            <div class="swiper-slide">
+              <div class="comment-slider">
+                <p class="comment-slider__text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ 
+                  و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                   کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                </p>
+                <div class="comment-slider__property">
+                <div class="comment-slider__users">
+                  <div class="comment-slider__image">
+                    <img class="comment-slider__img" src="img/user_img-2.png" alt="user image">
+                  </div>
+                  <div class="comment-slider-user">
+                    <span class="comment-slider-user__name">محمد زینالی</span>
+                    <span class="comment-slider-user__job">مدیریت و معاون فلان شرکت</span>
+                  </div>
+                </div>
+                <div class="comment-slider__stars">
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>      
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star comment-slider__star--white" width="24" height="24" viewBox="0 0 24 24">
+                    <rect id="Rectangle_179" data-name="Rectangle 179" width="24" height="24" transform="translate(24) rotate(90)" fill="#fa0" opacity="0"/>
+                    <path id="Path_2019" data-name="Path 2019" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21ZM12,16.1a.92.92,0,0,1,.46.11l3.77,2L15.51,14a1,1,0,0,1,.29-.89l3-2.93-4.2-.62A1,1,0,0,1,13.89,9L12,5.25,10.11,9a1,1,0,0,1-.75.54l-4.2.62,3,2.93a1,1,0,0,1,.29.89l-.72,4.16,3.77-2a.92.92,0,0,1,.5-.04Z" fill="#fa0"/>
+                  </svg>            
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="comment-slider">
+                <p class="comment-slider__text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ 
+                  و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                   کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                </p>
+                <div class="comment-slider__property">
+                <div class="comment-slider__users">
+                  <div class="comment-slider__image">
+                    <img class="comment-slider__img" src="img/user_img-3.png" alt="user image">
+                  </div>
+                  <div class="comment-slider-user">
+                    <span class="comment-slider-user__name">آیهان دنورس</span>
+                    <span class="comment-slider-user__job">مدیریت و معاون فلان شرکت</span>
+                  </div>
+                </div>
+                <div class="comment-slider__stars">
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>      
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star comment-slider__star--white" width="24" height="24" viewBox="0 0 24 24">
+                    <rect id="Rectangle_179" data-name="Rectangle 179" width="24" height="24" transform="translate(24) rotate(90)" fill="#fa0" opacity="0"/>
+                    <path id="Path_2019" data-name="Path 2019" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21ZM12,16.1a.92.92,0,0,1,.46.11l3.77,2L15.51,14a1,1,0,0,1,.29-.89l3-2.93-4.2-.62A1,1,0,0,1,13.89,9L12,5.25,10.11,9a1,1,0,0,1-.75.54l-4.2.62,3,2.93a1,1,0,0,1,.29.89l-.72,4.16,3.77-2a.92.92,0,0,1,.5-.04Z" fill="#fa0"/>
+                  </svg>            
+                </div>
+              </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="comment-slider">
+                <p class="comment-slider__text">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ 
+                  و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
+                   کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده شناخت فراوان جامعه
+                </p>
+                <div class="comment-slider__property">
+                <div class="comment-slider__users">
+                  <div class="comment-slider__image">
+                    <img class="comment-slider__img" src="img/user_img-4.jpg" alt="user image">
+                  </div>
+                  <div class="comment-slider-user">
+                    <span class="comment-slider-user__name">آریس تاتلیس</span>
+                    <span class="comment-slider-user__job">مدیریت و معاون فلان شرکت</span>
+                  </div>
+                </div>
+                <div class="comment-slider__stars">
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>      
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star" width="19.957" height="19.009" viewBox="0 0 19.957 19.009">
+                    <path id="Path_2018" data-name="Path 2018" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21Z" transform="translate(-2.036 -1.996)" fill="#fa0"/>
+                  </svg>
+                  <svg class="comment-slider__star comment-slider__star--white" width="24" height="24" viewBox="0 0 24 24">
+                    <rect id="Rectangle_179" data-name="Rectangle 179" width="24" height="24" transform="translate(24) rotate(90)" fill="#fa0" opacity="0"/>
+                    <path id="Path_2019" data-name="Path 2019" d="M17.56,21a1,1,0,0,1-.46-.11L12,18.22,6.9,20.89a1,1,0,0,1-1.45-1.06l1-5.63-4.12-4a.985.985,0,0,1,.56-1.68l5.7-.83L11.1,2.56a1,1,0,0,1,1.8,0l2.54,5.12,5.7.83a.985.985,0,0,1,.56,1.68l-4.12,4,1,5.63A.99.99,0,0,1,17.56,21ZM12,16.1a.92.92,0,0,1,.46.11l3.77,2L15.51,14a1,1,0,0,1,.29-.89l3-2.93-4.2-.62A1,1,0,0,1,13.89,9L12,5.25,10.11,9a1,1,0,0,1-.75.54l-4.2.62,3,2.93a1,1,0,0,1,.29.89l-.72,4.16,3.77-2a.92.92,0,0,1,.5-.04Z" fill="#fa0"/>
+                  </svg>            
+                </div>
+              </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="swiper-pagination swiper-pagination-bullets swiper-pagination-horizontal">
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet"></span>
+            <span class="swiper-pagination-bullet" aria-current="true"></span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="weblog">
+      <div class="container">
+        <h2 class="weblog__title">آخرین مطالب وبلاگ</h2>
+        <div class="weblog-items">
+          <div class="weblog-item">
+            <div class="weblog-item__picture">
+              <img src="img/blog1_image.png" alt="weblog image" class="weblog-item__image">
+            </div>
+            <h5 class="weblog-item__title">عنوان مقاله در این قسمت نمایش داده می‌شود</h5>
+            <p class="weblog-item__description"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+              چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+              ... 
+              </p>
+              <div class="weblog-item-footer">
+                <div class="weblog-item-footer__left">
+                  <div class="weblog-item-footer__icon-likes">
+                    <sapn class="weblog-item-footer__like-counter">76</sapn>                   
+                    <svg class="weblog-item-footer__icon-like" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="heart">
+                        <rect id="Rectangle_162" data-name="Rectangle 162" width="24" height="24" fill="#f36d6d" opacity="0"/>
+                        <path id="Path_1282" data-name="Path 1282" d="M12,21a1,1,0,0,1-.71-.29L3.52,12.93a5.233,5.233,0,1,1,7.4-7.4L12,6.61l1.08-1.08a5.233,5.233,0,1,1,7.4,7.4l-7.77,7.78A1,1,0,0,1,12,21Z" fill="#f36d6d"/>
+                      </g>
+                    </svg> 
+                  </div> 
+                  <div class="weblog-item-footer__icon-saves">          
+                    <svg class="weblog-item-footer__icon-save" width="24" height="24" viewBox="0 0 24 24">
+                    <g id="Layer_2-2" data-name="Layer 2">
+                      <g id="bookmark">
+                        <rect id="Rectangle_177" data-name="Rectangle 177" width="24" height="24" opacity="0"/>
+                        <path id="Path_1291" data-name="Path 1291" d="M6.09,21.06a1,1,0,0,1-1-1L4.94,5.4A2.26,2.26,0,0,1,7.12,3.05L16.71,3a2.27,2.27,0,0,1,2.23,2.31l.14,14.66a.99.99,0,0,1-1.49.87l-5.7-3.16L6.6,20.91a1.2,1.2,0,0,1-.51.15Zm5.76-5.55a1.11,1.11,0,0,1,.5.12l4.71,2.61L16.94,5.29c0-.2-.13-.34-.21-.33l-9.6.09c-.08,0-.19.13-.19.33l.12,12.9,4.28-2.63a1.06,1.06,0,0,1,.51-.14Z"/>
+                      </g>
+                    </g>
+                    </svg> 
+                  </div>                   
+                  </div>
+                <div class="weblog-item-footer__right">
+                  <div class="weblog-item-footer__cleanders">
+                    <svg class="weblog-item-footer__cleander" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="calendar">
+                        <rect id="Rectangle_161" data-name="Rectangle 161" width="24" height="24" fill="#474747" opacity="0"/>
+                        <path id="Path_1281" data-name="Path 1281" d="M18,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H6A3,3,0,0,0,3,7V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3ZM8,17a1,1,0,1,1,1-1A1,1,0,0,1,8,17Zm8,0H12a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Zm3-6H5V7A1,1,0,0,1,6,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h1a1,1,0,0,1,1,1Z" fill="#474747"/>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="weblog-item-footer__date">9 بهمن 1401</span>                    
+                </div>
+              </div>
+          </div>
+          <div class="weblog-item">
+            <div class="weblog-item__picture">
+              <img src="img/blog2_image.png" alt="weblog image" class="weblog-item__image">
+            </div>
+            <h5 class="weblog-item__title">عنوان مقاله در این قسمت نمایش داده می‌شود</h5>
+            <p class="weblog-item__description"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+              چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+              ...
+              </p>
+              <div class="weblog-item-footer">
+                <div class="weblog-item-footer__left">
+                  <div class="weblog-item-footer__icon-likes">
+                    <sapn class="weblog-item-footer__like-counter">76</sapn>                   
+                    <svg class="weblog-item-footer__icon-like" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="heart">
+                        <rect id="Rectangle_162" data-name="Rectangle 162" width="24" height="24" fill="#f36d6d" opacity="0"/>
+                        <path id="Path_1282" data-name="Path 1282" d="M12,21a1,1,0,0,1-.71-.29L3.52,12.93a5.233,5.233,0,1,1,7.4-7.4L12,6.61l1.08-1.08a5.233,5.233,0,1,1,7.4,7.4l-7.77,7.78A1,1,0,0,1,12,21Z" fill="#f36d6d"/>
+                      </g>
+                    </svg> 
+                  </div>               
+                  <div class="weblog-item-footer__icon-saves">          
+                    <svg class="weblog-item-footer__icon-save" width="24" height="24" viewBox="0 0 24 24">
+                    <g id="Layer_2-2" data-name="Layer 2">
+                      <g id="bookmark">
+                        <rect id="Rectangle_177" data-name="Rectangle 177" width="24" height="24" opacity="0"/>
+                        <path id="Path_1291" data-name="Path 1291" d="M6.09,21.06a1,1,0,0,1-1-1L4.94,5.4A2.26,2.26,0,0,1,7.12,3.05L16.71,3a2.27,2.27,0,0,1,2.23,2.31l.14,14.66a.99.99,0,0,1-1.49.87l-5.7-3.16L6.6,20.91a1.2,1.2,0,0,1-.51.15Zm5.76-5.55a1.11,1.11,0,0,1,.5.12l4.71,2.61L16.94,5.29c0-.2-.13-.34-.21-.33l-9.6.09c-.08,0-.19.13-.19.33l.12,12.9,4.28-2.63a1.06,1.06,0,0,1,.51-.14Z"/>
+                      </g>
+                    </g>
+                    </svg> 
+                  </div>     
+                  </div>
+                <div class="weblog-item-footer__right">
+                  <div class="weblog-item-footer__cleanders">
+                    <svg class="weblog-item-footer__cleander" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="calendar">
+                        <rect id="Rectangle_161" data-name="Rectangle 161" width="24" height="24" fill="#474747" opacity="0"/>
+                        <path id="Path_1281" data-name="Path 1281" d="M18,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H6A3,3,0,0,0,3,7V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3ZM8,17a1,1,0,1,1,1-1A1,1,0,0,1,8,17Zm8,0H12a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Zm3-6H5V7A1,1,0,0,1,6,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h1a1,1,0,0,1,1,1Z" fill="#474747"/>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="weblog-item-footer__date">9 بهمن 1401</span>                    
+                </div>
+              </div>
+          </div>
+          <div class="weblog-item">
+            <div class="weblog-item__picture">
+              <img src="img/blog3_image.png" alt="weblog image" class="weblog-item__image">
+            </div>
+            <h5 class="weblog-item__title">عنوان مقاله در این قسمت نمایش داده می‌شود</h5>
+            <p class="weblog-item__description"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت
+              چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون
+              ...
+              </p>
+              <div class="weblog-item-footer">
+                <div class="weblog-item-footer__left">
+                  <div class="weblog-item-footer__icon-likes">
+                    <sapn class="weblog-item-footer__like-counter">76</sapn>                   
+                    <svg class="weblog-item-footer__icon-like" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="heart">
+                        <rect id="Rectangle_162" data-name="Rectangle 162" width="24" height="24" fill="#f36d6d" opacity="0"/>
+                        <path id="Path_1282" data-name="Path 1282" d="M12,21a1,1,0,0,1-.71-.29L3.52,12.93a5.233,5.233,0,1,1,7.4-7.4L12,6.61l1.08-1.08a5.233,5.233,0,1,1,7.4,7.4l-7.77,7.78A1,1,0,0,1,12,21Z" fill="#f36d6d"/>
+                      </g>
+                    </svg> 
+                  </div> 
+                  <div class="weblog-item-footer__icon-saves">          
+                    <svg class="weblog-item-footer__icon-save" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="bookmark">
+                        <rect id="Rectangle_157" data-name="Rectangle 157" width="24" height="24" fill="#474747" opacity="0"/>
+                        <path id="Path_1279" data-name="Path 1279" d="M6,21a1,1,0,0,1-1-1V5.33A2.28,2.28,0,0,1,7.2,3h9.6A2.28,2.28,0,0,1,19,5.33V20a1,1,0,0,1-1.5.86l-5.67-3.21L6.5,20.85A1,1,0,0,1,6,21Z" fill="#474747"/>
+                      </g>
+                    </svg>                     
+                  </div>                   
+                  </div>
+                <div class="weblog-item-footer__right">
+                  <div class="weblog-item-footer__cleanders">
+                    <svg class="weblog-item-footer__cleander" width="24" height="24" viewBox="0 0 24 24">
+                      <g id="calendar">
+                        <rect id="Rectangle_161" data-name="Rectangle 161" width="24" height="24" fill="#474747" opacity="0"/>
+                        <path id="Path_1281" data-name="Path 1281" d="M18,4H17V3a1,1,0,0,0-2,0V4H9V3A1,1,0,0,0,7,3V4H6A3,3,0,0,0,3,7V19a3,3,0,0,0,3,3H18a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3ZM8,17a1,1,0,1,1,1-1A1,1,0,0,1,8,17Zm8,0H12a1,1,0,0,1,0-2h4a1,1,0,0,1,0,2Zm3-6H5V7A1,1,0,0,1,6,6H7V7A1,1,0,0,0,9,7V6h6V7a1,1,0,0,0,2,0V6h1a1,1,0,0,1,1,1Z" fill="#474747"/>
+                      </g>
+                    </svg>
+                  </div>
+                  <span class="weblog-item-footer__date">9 بهمن 1401</span>                    
+                </div>
+              </div>
+          </div>
+        </div>
+        <div class="weblog__btns">
+          <a href="#" class="app-btn-lg weblog__button">تمامی مطالب وبلاگ</a>
+        </div>
+      </div>
+    </section>
+
+    <sction class="ticket">
+      <div class="container">
+        <div class="ticket-item ticket__wrapper">
+          <h2 class="ticket-item__title"><span>سوالی دارید ؟</span>  ما اینجا هستم تا به شما پاسخ دهیم</h2>
+          <div class="ticket-item__buttons">
+            <a href="#" class="app-btn-lg ticket-item__btn ticket-item__btn--blue">
+              <svg class="ticket-item__icon-ticket" width="24" height="24" viewBox="0 0 24 24">
+                <g id="message-square">
+                  <rect id="Rectangle_166" data-name="Rectangle 166" width="24" height="24" fill="#fff" opacity="0"/>
+                  <path id="Path_1283" data-name="Path 1283" d="M19,3H5A3,3,0,0,0,2,6V21a1,1,0,0,0,1.51.86L8,19.14A1,1,0,0,1,8.55,19H19a3,3,0,0,0,3-3V6A3,3,0,0,0,19,3ZM8,12a1,1,0,1,1,1-1A1,1,0,0,1,8,12Zm4,0a1,1,0,1,1,1-1A1,1,0,0,1,12,12Zm4,0a1,1,0,1,1,1-1A1,1,0,0,1,16,12Z" fill="#fff"/>
+                </g>
+              </svg>              
+              باز کردن یک تیکت جدید
+            </a>
+            <a href="#" class="ticket-item__btn--mobile">
+              <svg class="ticket-item__icon--mobile" width="24" height="24" viewBox="0 0 24 24">
+                <g id="message-square">
+                  <rect id="Rectangle_166" data-name="Rectangle 166" width="24" height="24" fill="#fff" opacity="0"/>
+                  <path id="Path_1283" data-name="Path 1283" d="M19,3H5A3,3,0,0,0,2,6V21a1,1,0,0,0,1.51.86L8,19.14A1,1,0,0,1,8.55,19H19a3,3,0,0,0,3-3V6A3,3,0,0,0,19,3ZM8,12a1,1,0,1,1,1-1A1,1,0,0,1,8,12Zm4,0a1,1,0,1,1,1-1A1,1,0,0,1,12,12Zm4,0a1,1,0,1,1,1-1A1,1,0,0,1,16,12Z" fill="#fff"/>
+                </g>
+              </svg>
+              تیکت              
+            </a>
+            <a href="" class="app-btn-lg ticket-item__btn ticket-item__btn--green">
+              <svg class="ticket-item__icon-support" width="24" height="24" viewBox="0 0 24 24">
+                <rect id="Rectangle_168" data-name="Rectangle 168" width="24" height="24" fill="#fff" opacity="0"/>
+                <path id="Path_1284" data-name="Path 1284" d="M12,2A10.2,10.2,0,0,0,2,12.37V17a4,4,0,1,0,4-4,3.91,3.91,0,0,0-2,.56V12.37A8.2,8.2,0,0,1,12,4a8.2,8.2,0,0,1,8,8.37v1.19A3.91,3.91,0,0,0,18,13a4,4,0,1,0,4,4V12.37A10.2,10.2,0,0,0,12,2Z" fill="#fff"/>
+              </svg>             
+              گفتگوی آنلاین با پشتیبانی 
+            </a>
+            <a href="#" class="ticket-item__btn--mobile">
+              <svg class="ticket-item__icon--mobile" width="24" height="24" viewBox="0 0 24 24">
+                <rect id="Rectangle_168" data-name="Rectangle 168" width="24" height="24" fill="#fff" opacity="0"/>
+                <path id="Path_1284" data-name="Path 1284" d="M12,2A10.2,10.2,0,0,0,2,12.37V17a4,4,0,1,0,4-4,3.91,3.91,0,0,0-2,.56V12.37A8.2,8.2,0,0,1,12,4a8.2,8.2,0,0,1,8,8.37v1.19A3.91,3.91,0,0,0,18,13a4,4,0,1,0,4,4V12.37A10.2,10.2,0,0,0,12,2Z" fill="#fff"/>
+              </svg>
+              <span class="ticket-item__btn-title">
+                پشتیبان
+              </span>       
+            </a>
+          </div>
+        </div>
+      </div>
+    </sction>
+
+</main>
+
+
+<!-- Footer-->
+<footer class="footer">
+  <div class="container">
+
+    <div class="footer__wrapper-head">
+      <ul class="footer-list footer-list--about">
+        <h5 class="footer-list__title">ارتباط با ما</h5>
+        <li class="footer-list__item footer-list__item--about">
+          <div class="footer-list-icons">
+            <svg class="footer-list__icon" width="24" height="24" viewBox="0 0 24 24">
+              <g id="navigation-2">
+                <rect id="Rectangle_169" data-name="Rectangle 169" width="24" height="24" fill="#474747" opacity="0"/>
+                <path id="Path_1285" data-name="Path 1285" d="M13.67,22h-.06a1,1,0,0,1-.92-.8l-1.54-7.57a1,1,0,0,0-.78-.78L2.8,11.31a1,1,0,0,1-.12-1.93l16-5.33A1,1,0,0,1,20,5.32l-5.33,16A1,1,0,0,1,13.67,22Z" fill="#474747"/>
+              </g>
+            </svg>            
+          </div>
+          اصفهان ، شهرضا ، خیابان شهید بهشتی ، میدان حر
+        </li>
+        <li class="footer-list__item footer-list__item--about">
+          <div class="footer-list-icons">
+            <svg class="footer-list__icon" width="24" height="24" viewBox="0 0 24 24">
+              <rect id="Rectangle_170" data-name="Rectangle 170" width="24" height="24" fill="#474747" opacity="0"/>
+              <path id="Path_1286" data-name="Path 1286" d="M17.4,22A15.42,15.42,0,0,1,2,6.6,4.6,4.6,0,0,1,6.6,2a3.94,3.94,0,0,1,.77.07,3.79,3.79,0,0,1,.72.18A1,1,0,0,1,8.74,3l1.37,6a1,1,0,0,1-.26.92c-.13.14-.14.15-1.37.79a9.91,9.91,0,0,0,4.87,4.89c.65-1.24.66-1.25.8-1.38a1,1,0,0,1,.92-.26l6,1.37a1,1,0,0,1,.72.65,4.34,4.34,0,0,1,.19.73,4.77,4.77,0,0,1,.06.76A4.6,4.6,0,0,1,17.4,22Z" fill="#474747"/>
+            </svg>                     
+          </div>
+          031 - 53522797 - 09388521331
+        </li>
+        <li class="footer-list__item footer-list__item--about">
+          <div class="footer-list-icons">
+            <svg class="footer-list__icon" width="24" height="24" viewBox="0 0 24 24">
+              <g id="email">
+                <rect id="Rectangle_171" data-name="Rectangle 171" width="24" height="24" fill="#474747" opacity="0"/>
+                <path id="Path_1287" data-name="Path 1287" d="M19,4H5A3,3,0,0,0,2,7V17a3,3,0,0,0,3,3H19a3,3,0,0,0,3-3V7a3,3,0,0,0-3-3Zm0,2-6.5,4.47a1,1,0,0,1-1,0L5,6Z" fill="#474747"/>
+              </g>
+            </svg>                     
+          </div>
+          Esmaeilshabani75@gmail.com
+        </li>
+        <div class="footer-list-socials">
+          <a href="#" class="footer-list-socials__item footer-list-social--telegram">
+            <svg class="footer-list-socials__icon" width="38" height="38" viewBox="0 0 38 38">
+              <g id="Group_244" data-name="Group 244" transform="translate(-1708 -6723)">
+                <g id="Ellipse_91" data-name="Ellipse 91" transform="translate(1708 6723)" fill="none" stroke="#3b3465" stroke-width="1" opacity="0.65">
+                  <circle cx="19" cy="19" r="19" stroke="none"/>
+                  <circle cx="19" cy="19" r="18.5" fill="none"/>
+                </g>
+                <g id="telegram_2_" data-name="telegram (2)" transform="translate(1715.86 6733.421)" opacity="0.65">
+                  <path id="Path_1000" data-name="Path 1000" d="M19.967.47A1.317,1.317,0,0,0,18.922,0a2.052,2.052,0,0,0-.729.145L1.026,6.7C.115,7.046-.008,7.568,0,7.848s.16.794,1.089,1.09l.017.005,2.408.689,11.725-5.99a.594.594,0,0,1,.7.936h0L9.423,11.5l-.186.754,2.328,1.875,3.226,2.6.009.007a1.844,1.844,0,0,0,1.121.421,1.574,1.574,0,0,0,1.5-1.395L20.234,1.874a1.66,1.66,0,0,0-.267-1.4Zm0,0" transform="translate(0 0)" fill="#3b3465"/>
+                  <path id="Path_1001" data-name="Path 1001" d="M124.458,162.807a.592.592,0,0,1,.144-.265L128.88,158l-7.938,4.055,1.8,5.155a2.015,2.015,0,0,0,.445.739l1.269-5.139Zm0,0" transform="translate(-116.151 -151.738)" fill="#3b3465"/>
+                  <path id="Path_1002" data-name="Path 1002" d="M205.6,344.759a1.824,1.824,0,0,0,1.218-.524l1.319-1.214-1.758-1.416Zm0,0" transform="translate(-197.458 -328.074)" fill="#3b3465"/>
+                </g>
+              </g>
+            </svg>                                         
+          </a>
+          <a href="#" class="footer-list-socials__item footer-list-social--whatsapp">
+            <svg class="footer-list-socials__icon" width="38" height="38" viewBox="0 0 38 38">
+              <g id="Group_245" data-name="Group 245" transform="translate(-1679 -6806)">
+                <g id="Ellipse_92" data-name="Ellipse 92" transform="translate(1679 6806)" fill="none" stroke="#4bdf77" stroke-width="1">
+                  <circle cx="19" cy="19" r="19" stroke="none"/>
+                  <circle cx="19" cy="19" r="18.5" fill="none"/>
+                </g>
+                <path id="whatsapp" d="M9.55,0A9.587,9.587,0,0,0,0,9.55a9.486,9.486,0,0,0,1.352,4.891L0,19.1l4.659-1.352A9.486,9.486,0,0,0,9.55,19.1,9.55,9.55,0,1,0,9.55,0Zm5.971,13.585-.444.444c-.629.629-2.074.579-3,.4-3.089-.6-6.69-4.087-7.385-7.11a3.923,3.923,0,0,1,.343-3.3l.444-.444a.629.629,0,0,1,.889,0L8.142,5.356a.629.629,0,0,1,0,.888L7.7,6.689a1.259,1.259,0,0,0,0,1.778l2.935,2.9a1.256,1.256,0,0,0,1.778,0l.444-.444a.657.657,0,0,1,.889,0L15.521,12.7a.628.628,0,0,1,0,.889Zm0,0" transform="translate(1688.45 6815.45)" fill="#4bdf77"/>
+              </g>
+            </svg>                          
+          </a>
+          <a href="#" class="footer-list-socials__item footer-list-social--facebook">
+            <svg class="footer-list-socials__icon" width="38" height="38" viewBox="0 0 38 38">
+              <g id="Group_246" data-name="Group 246" transform="translate(-1628 -6806)">
+                <g id="Ellipse_93" data-name="Ellipse 93" transform="translate(1628 6806)" fill="none" stroke="#3b3465" stroke-width="1" opacity="0.65">
+                  <circle cx="19" cy="19" r="19" stroke="none"/>
+                  <circle cx="19" cy="19" r="18.5" fill="none"/>
+                </g>
+                <path id="facebook" d="M14.869,3.527h1.939V.15A25.038,25.038,0,0,0,13.983,0c-2.8,0-4.711,1.758-4.711,4.99V7.965H6.187V11.74H9.272v9.5h3.782v-9.5h2.96l.47-3.775H13.054v-2.6c0-1.091.295-1.838,1.815-1.838Z" transform="translate(1635.503 6814.38)" fill="#3b3465" opacity="0.65"/>
+              </g>
+            </svg>                             
+          </a>
+          <a href="#" class="footer-list-socials__item footer-list-social--instagram">
+            <svg class="footer-list-socials__icon" width="38" height="38" viewBox="0 0 38 38">
+              <g id="Group_247" data-name="Group 247" transform="translate(-1577 -6806)">
+                <g id="Ellipse_94" data-name="Ellipse 94" transform="translate(1577 6806)" fill="none" stroke="#3b3465" stroke-width="1" opacity="0.65">
+                  <circle cx="19" cy="19" r="19" stroke="none"/>
+                  <circle cx="19" cy="19" r="18.5" fill="none"/>
+                </g>
+                <g id="instagram-sketched" transform="translate(1586.325 6815.325)" opacity="0.65">
+                  <path id="Path_1003" data-name="Path 1003" d="M10.811,5.838A4.965,4.965,0,1,0,15.776,10.8a4.964,4.964,0,0,0-4.965-4.965Zm0,8.187A3.223,3.223,0,1,1,14.033,10.8,3.221,3.221,0,0,1,10.811,14.025Z" transform="translate(-1.133 -1.131)" fill="#3b3465"/>
+                  <path id="Path_1004" data-name="Path 1004" d="M13.664.061c-1.78-.083-6.189-.079-7.971,0a5.782,5.782,0,0,0-4.06,1.565C-.228,3.487.01,5.994.01,9.672c0,3.763-.21,6.213,1.623,8.045C3.5,19.584,6.044,19.34,9.678,19.34c3.728,0,5.015,0,6.333-.508,1.792-.7,3.145-2.3,3.277-5.175.084-1.781.079-6.189,0-7.971-.16-3.4-1.983-5.457-5.624-5.624Zm2.818,16.425c-1.22,1.22-2.912,1.111-6.827,1.111-4.031,0-5.648.06-6.827-1.123-1.359-1.352-1.113-3.523-1.113-6.815C1.715,5.2,1.258,2,5.728,1.767c1.027-.036,1.329-.048,3.915-.048l.036.024c4.3,0,7.667-.45,7.87,4.02.046,1.02.056,1.326.056,3.908,0,3.984.075,5.611-1.124,6.815Z" transform="translate(0 0)" fill="#3b3465"/>
+                  <circle id="Ellipse_96" data-name="Ellipse 96" cx="1.16" cy="1.16" r="1.16" transform="translate(13.679 3.351)" fill="#3b3465"/>
+                </g>
+              </g>
+            </svg>                                      
+          </a>
+          <a href="#" class="footer-list-socials__item footer-list-social--twitter">
+            <svg class="footer-list-socials__icon" width="38" height="38" viewBox="0 0 38 38">
+              <g id="Group_248" data-name="Group 248" transform="translate(-1526 -6806)">
+                <g id="Ellipse_95" data-name="Ellipse 95" transform="translate(1526 6806)" fill="none" stroke="#3b3465" stroke-width="1" opacity="0.65">
+                  <circle cx="19" cy="19" r="19" stroke="none"/>
+                  <circle cx="19" cy="19" r="18.5" fill="none"/>
+                </g>
+                <path id="twitter" d="M6.175,11.921A11.233,11.233,0,0,0,17.484.612q0-.258-.011-.514A8.089,8.089,0,0,0,19.456-1.96a7.93,7.93,0,0,1-2.283.626,3.99,3.99,0,0,0,1.748-2.2,7.972,7.972,0,0,1-2.524.965,3.97,3.97,0,0,0-2.9-1.256A3.975,3.975,0,0,0,9.52.15a3.971,3.971,0,0,0,.1.906A11.286,11.286,0,0,1,1.43-3.1a3.965,3.965,0,0,0-.538,2A3.972,3.972,0,0,0,2.661,2.21a3.944,3.944,0,0,1-1.8-.5c0,.017,0,.033,0,.051a3.976,3.976,0,0,0,3.189,3.9A3.989,3.989,0,0,1,3,5.8a3.95,3.95,0,0,1-.747-.072A3.979,3.979,0,0,0,5.967,8.489a7.974,7.974,0,0,1-4.937,1.7,8.09,8.09,0,0,1-.948-.055,11.252,11.252,0,0,0,6.093,1.786" transform="translate(1535.608 6821.512)" fill="#3b3465" opacity="0.65"/>
+              </g>
+            </svg>                                 
+          </a>
+        </div>
+      </ul>
+      <ul class="footer-list">
+        <h5 class="footer-list__title">دامین</h5>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">ثبت دامنه</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">تعرفه ثبت دامنه</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">جستجوی دامنه</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">انتقال یا تمدید</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">ثبت دامنه بین المللی </a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">  نمایندگی ثبت دامنه  </a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <h5 class="footer-list__title">میزبانی وب</h5>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست لینوکس</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست ویندوز</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">نمایندگی</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست لینوکس ویژه</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست داخل ایران</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست مخصوص وردپرس</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">هاست دانلود</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">میزبانی ایمیل</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <h5 class="footer-list__title">سرور مجازی</h5>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور مجازی داخل ایران</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور مجازی اروپا</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور مجازی آمریکا</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">آموزش مدیریت سرور</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور هوش مصنوعی</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور یادگیری ماشین</a>
+        </li>
+      </ul>
+      <ul class="footer-list">
+        <h5 class="footer-list__title">سرور اختصاصی</h5>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی ایران</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی آلمان</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">مدیریت سرور اختصاصی</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی فرانسه</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link"> سرور اختصاصی کانادا</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی آمریکا</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی لینوکس</a>
+        </li>
+        <li class="footer-list__item">
+          <a href="#" class="footer-list__link">سرور اختصاصی ویندوز</a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="footer-market">
+      <div class="footer-market__left">
+        <a href="#" class="footer-market__title">
+          <img src="img/brand-logo.png" alt="Brand Logo">
+          یاس سرور
+        </a>
+        <p class="footer-market__description"> لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
+          است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی
+         .تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+        </p>
+      </div>
+      <div class="footer-market__right">
+        <a href="#" class="footer-market__link">
+          <svg class="footer-market__icon" width="144" height="144" viewBox="0 0 144 144">
+            <image id="enamad_icon_text_color_blue_1024" width="144" height="144" xlink:href="data:image/png;base64,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"/>
+          </svg>                
+        </a>
+        <a href="#" class="footer-market__link">
+          <img src="img/icon/logo_media-2.png" alt="Logo Media" class="footer-market__icon">
+        </a>
+        <a href="#" class="footer-market__link">
+          <img src="img/icon/logo_media-3.png" alt="Logo Media" class="footer-market__icon">                       
+        </a>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom__back-top">
+    <svg class="footer-bottom__drop"  width="228.366" height="96.595" viewBox="0 0 228.366 96.595">
+      <g id="Group_244" data-name="Group 244" transform="translate(-845.817 -7077.282)">
+        <g id="Group_238" data-name="Group 238" transform="translate(0 -74)">
+          <path id="Union_1" data-name="Union 1" d="M883.7,780.22c8.315,15.506,22.109,3.446,46.851,12.088s33.58,34.625,65.7,34.569,39.09-26.148,62.794-34.791,41.576,3.584,49.581-11.867-17.561-49.938-17.561-49.938H897.291S875.385,764.713,883.7,780.22Z" transform="translate(-36 6421)" fill="#f3f2ff"/>
+          <a href="#header" class="footer-bottom_bac-link">
+          <g id="Layer_2" data-name="Layer 2" transform="translate(944.628 7237.372) rotate(-90)">
+            <g id="arrow-back">
+              <rect id="Rectangle_175" data-name="Rectangle 175" width="30" height="30" transform="translate(30.372 0.372) rotate(90)" fill="#6288e1" opacity="0"/>
+              <path id="Path_1289" data-name="Path 1289" d="M5.281,12.686H20.473L15.823,7.1A1.283,1.283,0,0,1,17.8,5.462l6.4,7.686a1.525,1.525,0,0,1,.115.192.162.162,0,0,0,.09.167,1.231,1.231,0,0,1,0,.922.162.162,0,0,1-.09.167,1.525,1.525,0,0,1-.115.192l-6.4,7.686a1.283,1.283,0,1,1-1.973-1.64l4.65-5.585H5.281a1.281,1.281,0,1,1,0-2.562Z" transform="translate(1.124 1.404)" fill="#6288e1"/>
+            </g>
+          </g>
+          </a>
+        </g>
+      </g>
+    </svg>
+  </div>
+  <div class="footer-bottom">
+    <div class="container">
+      <div class="footer-bottom__wrapper">
+    <p class="footer__copy-right">تمامی حقوق این وب سایت برای <span>یاس سرور</span> محفوظ می‌باشد</p>
+    <p class="footer__copy-right">© Copyright 2021 YasServer . All rights reserved </p>
+  </div>
+  </div>
+  </div>
+</footer>
+
+<script src="script/swiper-bundle.min.js"></script><!-- lib swiper Js-->
+<script src="script/app.js"></script><!-- Script Js-->
+</body>
+</html>
+
+
+
+

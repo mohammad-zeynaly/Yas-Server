@@ -1,0 +1,54 @@
+/* ======================================== General styles ======================================== */
+
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+*,
+*::after,
+*::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+
+body{
+    font-family: "Iran-Sans-Medium";
+    font-size: 1.6rem;
+    line-height: 1.5;
+    direction: rtl;
+    color: $colorDark ;
+    position: relative;
+    overflow-x: hidden;
+}
+
+
+.container{
+    max-width: 1280px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    position: relative;
+}
+
+.overlay{
+    display:block;
+    width: 100%;
+    left: 0;
+    z-index: 18;
+    top: 0; /* -1.5rem*/
+    position: absolute;
+    background-color: rgba(0,0,0,.6);
+    height: 100%;
+    transition: all 250ms ease-in;
+
+}

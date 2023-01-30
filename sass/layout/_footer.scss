@@ -1,0 +1,116 @@
+.footer{
+    background-color: #F3F2FF;
+    padding-top:14rem;
+}
+.footer__wrapper-head{
+    @include flexBox(space-between,'');
+    flex-wrap: wrap;
+}
+.footer-list{
+    flex-basis: 17%;
+    margin-bottom: 4rem;
+}
+.footer-list--about{
+    flex-basis: 32%;
+}
+.footer-list__title{
+    font-size: 2.1rem;
+    color: $colorPurple;
+    position: relative;
+    margin-bottom: 0.5rem;
+    &::before{
+        content: "";
+        position: absolute;
+        top: 1.5rem;
+        right: -3rem;
+        left: 1rem;
+        width: 2rem;
+        height: 0.3rem;
+        background-color: $colorOrange;
+        border-radius: 20rem;
+    }
+}
+.footer-list__item{
+    font-size: 1.7rem;
+    padding-top:1rem;
+}
+.footer-list__item--about{
+    @include flexBox(start,center);
+    max-width: 36rem;
+}
+.footer-list__link{
+    color: $colorDark;
+}
+.footer-list-icons{
+    margin-left: 1rem
+}
+.footer-list__icon{
+
+}
+.footer-list-socials{
+    margin-top: 2rem;
+}
+.footer-list-socials__item {
+    margin-left: 1rem;
+}
+.footer-list-socials__item:last-child{
+    margin-left: 0;
+}
+.footer-market{
+    @include flexBox(space-between,center);
+    padding-top: 3rem;
+}
+.footer-market__right{
+    flex-basis: 50%;
+    padding-right: 5rem;
+    z-index: 6;
+}
+.footer-market__link{
+
+}
+.footer-market__icon{
+    background-color: $colorWhite;
+    margin-left: 1rem;
+    border-radius: 2rem;
+}
+.footer-market__left{
+    flex-basis: 50%;
+    z-index: 5;
+}
+.footer-market__title{
+    font-family: "Iran-Sans-Bold";
+    color: $colorPurple;
+    font-size: 2.5rem;
+    display: flex;
+    align-items: center;
+    img{
+        padding-left: 1rem;
+    }
+}
+.footer-market__description{
+    padding-top: 1.5rem;
+    line-height: 2;
+}
+.footer-bottom{
+    background-color: $colorWhite;
+    margin-top: 3rem;
+}
+.footer-bottom__wrapper{
+    @include flexBox(space-between,center);
+}
+.footer__copy-right{
+    padding: 1.5rem 0;
+    span{
+        color: $colorPurple;
+    }
+}
+.footer-bottom__back-top{
+    position: relative;
+}
+.footer-bottom__drop{
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}

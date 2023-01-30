@@ -1,0 +1,53 @@
+
+
+/* ==================================  Font face     ================================== */
+
+@font-face {
+    font-family: "Iran-Sans-Regular";
+    src: url("../../fonts/IranSans/ttf/IRANSans-Regular.ttf") format("truetype"),
+    url("../../fonts/IranSans/woff/IRANSans-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Iran-Sans-Medium";
+    src: url("../../fonts/IranSans/ttf/IRANSans-Medium.ttf") format("truetype"),
+    url("../../fonts/IranSans/woff/IRANSans-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Iran-Sans-Bold";
+    src: url("../../fonts/IranSans/ttf/IRANSans-Bold.ttf") format("truetype"),
+    url("../../fonts/IranSans/woff/IRANSans-Bold.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "Kalameh-Regular";
+    src: url("../../fonts/Kalameh/ttf/Kalameh_Regular.ttf") format("truetype"),
+    url("../../fonts/Kalameh/woff/Kalameh-Regular.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Kalameh-Bold";
+    src: url("../../fonts/Kalameh/ttf/Kalameh_Bold.ttf") format("truetype"),
+    url("../../fonts/Kalameh/woff/Kalameh-Bold.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Kalameh-Black";
+    src: url("../../fonts/Kalameh/ttf/Kalameh_Black.ttf") format("truetype"),
+    url("../../fonts/Kalameh/woff/Kalameh-Black.woff") format("woff");
+}
+
+
+@font-face {
+    font-family: "Rubik-Medium";
+    src: url("../../fonts/Rubik-Font/ttf/Rubik-Medium.ttf") format("truetype"),
+    url("../../fonts/Rubik-Font/woff/Rubik-Medium.woff") format("woff");
+}
+
+@font-face {
+    font-family: "Rubik-Bold";
+    src: url("../../fonts/Rubik-Font/ttf/Rubik-Bold.ttf") format("truetype"),
+    url("../../fonts/Rubik-Font/woff/Rubik-Bold.woff") format("woff");
+}

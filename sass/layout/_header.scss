@@ -1,0 +1,356 @@
+
+/*
+
+    ==========
+      Header
+    ==========
+
+*/
+.header{
+   /* background: linear-gradient(to right, #6288e1,#ba9af2);*/
+   background: rgb(98,136,225);
+   background: linear-gradient(90deg, rgba(98,136,225,1) 0%, rgba(138,144,233,1) 56%, rgba(186,154,242,1) 90%);
+}
+.header-top{
+    @include flexBox(space-between,center);
+    //@include reset_padding;
+    padding: 2.2rem 0;
+}
+.header-top__buttons{
+    @include flexBox(center,center);
+}
+.header-top__btn{
+    margin-left: 2rem;
+}
+.header-top__btn:last-child{
+    margin-left: 0;
+}
+.header-top__icon{
+    margin-left: 1rem;
+}
+.header-top__links{
+
+}
+.header-top-menu{
+    @include flexBox(center,center);
+}
+.header-top-menu__item{
+
+}
+.header-top-menu__link{
+    color: $colorWhite;
+    font-size: 1.8rem;
+}
+.header-top-menu__pipe{
+    padding: 0 1rem;
+}
+
+.nav{
+    background-color: $colorWhite;
+    @include flexBox(space-between,center);
+    padding:2rem 0;
+    border-radius: 2rem;
+}
+.nav__brand{
+    @include flexBox(center,center);
+    padding-right: 3rem;
+}
+.nav__brand-icon{
+
+}
+.nav__brand-title{
+    font-family: "Iran-Sans-bold";
+    font-size: 2.5rem;
+    color: $colorPurple;
+    padding-right: 1rem;
+}
+.menu{
+    @include flexBox(center,center);
+}
+.menu__item{
+    margin-left: 2rem;
+}
+.menu__item:last-child{
+    margin-left: 0;
+}
+.menu__link{
+    color: $colorDark;
+    font-size: 1.8rem;
+    @include flexBox(center,end)
+}
+.menu__link-icon{
+    transform: rotate(-90deg);
+    margin-right: 0.1rem;
+    transition: all 150ms ease-in;
+
+}
+.phone-number{
+    @include flexBox(center,center);
+    padding-left: 3rem;
+}
+.phone-number__icons{
+    padding-right: 1rem;
+}
+.phone-number__icon{
+}
+.phone-number__num{
+    color: $colorDark;
+    font-size: 2rem;
+}
+
+/* ============================ Mega Menu ============================ */
+.menu__item{
+    position: static;
+}
+
+.mega-menus{
+    background: $colorWhite;
+    position: absolute;
+    top:15rem;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    max-width: 50rem;
+    padding-top: 3rem;
+    text-align: center;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display:flex;
+    justify-content: space-around;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 200ms ease-in;
+}
+.mega-menus--one{
+    max-width: 60rem;
+}
+.mega-menus--two{
+    max-width: 40rem;
+}
+.mega-menus--three{
+    max-width: 25rem;
+}
+.mega-menus--four{
+    max-width: 42.5rem;
+}
+.mega-menu__title{
+    color: $colorPurple;
+    font-size: 2rem;
+    padding-bottom: 0.5rem;
+    border-bottom: .2rem solid $colorOrange;
+}
+.mega-menu__item{
+    margin: 1rem 0;
+}
+.mega-menu__link{
+    display: block;
+    color: $colorDark;
+}
+.mega-menu__link{
+}
+
+.menu__item{
+    &:hover{
+        .mega-menus{
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .menu__link-icon{
+            transform:rotate(90deg);
+        }
+    }
+}
+
+
+/*
+
+    ==============
+     Mobile Menu
+    ==============
+
+*/
+.mobile-nav{
+    @include flexBox(space-between,center);
+    padding: 2rem 0;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+    display: none;
+
+}
+.mobile-nav__brand{
+    @include flexBox(center,center);
+}
+.nav__brand-icon{
+
+}
+.mobile-nav__brand-title{
+    color: $colorWhite;
+    font-size: 2.5rem;
+    padding-right: 1rem;
+}
+.mobile-nav-menu{
+    color: $colorDark;
+    background-color: $colorWhite;
+    width: 26rem;
+    position: fixed;
+    top:0;
+    bottom: 0;
+    right: -26rem;
+    padding: 2rem 1.5rem;
+    transition: all 200ms ease-in;
+    z-index: 200;
+}
+.mobile-nav-menu--open{
+    right: 0;
+}
+.mobile-nav-menu__title{
+    font-family: "Iran-Sans-bold";
+    font-size: 2.5rem;
+    color: $colorPurple;
+    text-align: center;
+    border-bottom: .1rem solid $colorPurple;
+    padding-bottom: .3rem;
+    margin-bottom: 2rem;
+}
+.mobile-nav-menu__item{
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+}
+.mobile-nav-menu__link{
+    color: $colorDark;
+}
+.mobile-nav-menu-buttons{
+    @include flexBox(space-between,center);
+    margin-top: 1.5rem;
+}
+.mobile-nav-menu__btn{
+    border-radius: 0;
+    color: $colorPurple;
+    border-color: $colorPurple;
+    margin: 0 auto;
+    flex-basis: 50%;
+    justify-content: center;
+    transition: all 150ms ease-in;
+    &:hover{
+        background-color:$colorPurple;
+        color: $colorWhite;
+    }
+    &:first-child{
+        border-left: 0;
+    }
+}
+
+.mobile-nav-btn__line{
+    cursor: pointer;
+    @include width_height(5rem,5rem);
+    background-color: $colorWhite;
+    border-radius: 2rem;
+    @include flexBox(center,center);
+
+}
+.mobile-nav__menu-btn{
+    display:inline-block;
+    @include width_height(3.5rem,.3rem);
+    background-color: $colorPurple;
+    border-radius: 20rem; 
+    position: relative;
+    z-index: 999;
+    transition: all 150ms ease-in;           
+    &::after,
+    &::before{
+        content: "";
+        position: absolute;
+        right: 0;
+        @include width_height(3.5rem,.3rem);
+        background-color: $colorPurple;
+        border-radius: 20rem;
+        transition: all 200ms ease-in;          
+            
+    }
+    &::before{
+        top: .9rem;
+    }
+    &::after{
+        bottom: .9rem;
+    }
+    
+}
+
+.mobile-nav__menu--active {
+    .mobile-nav__menu-btn{
+        background: transparent;
+        &::before{
+            transform: translateY(-.9rem) rotate(-45deg);
+        }
+
+        &::after{
+            transform: translateY(.9rem) rotate(45deg);
+        }
+    }
+}
+
+
+/*
+
+    ==============
+     Section Home
+    ==============
+
+*/
+
+.home{
+
+}
+.home__wrapper{
+    @include flexBox(center,'');
+    margin-top: 5rem;
+    padding-bottom: 5rem;
+}
+.home-content{
+    width: 60%;
+    color: $colorWhite;
+    background-image: url("../../img/home_sky.png");
+    background-size: cover;
+    background-position:center;
+}
+.home-content__title{
+    font-family: "Kalameh-Black";
+    font-size: 5rem;
+    max-width: 39rem;
+}
+.home-content__description{
+    font-family: "Iran-Sans-Regular";
+    margin-top: 3rem;
+    max-width: 74rem;
+    line-height: 2;
+    font-size: 1.8rem;
+}
+.home-content__buttons{
+    @include flexBox(stretch,center);
+    margin-top: 3rem;
+}
+.home-content__btn{
+    justify-content: center;
+    margin-left: 2rem;
+}
+.home-content__btn{
+    &:last-child{
+        margin-left: 0;
+    }
+}
+
+.home-content__btn--bg{
+    background-color: $colorWhite;
+    color: $colorPurple;
+}
+.home-picture{
+    width:40%;
+}
+.home-picture__image{
+    @include width_height(100%,auto);
+    object-fit:cover;
+}
+.home-picture__icon{
+    @include width_height(100%,100%);
+}

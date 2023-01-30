@@ -1,0 +1,13 @@
+@import "base/reset";
+@import "base/fonts";
+@import "components/colors";
+@import "base/base";
+@import "components/mixin";
+@import "components/component";
+// main styles 
+@import "layout/header";
+@import "layout/main";
+@import "layout/footer";
+
+// Responsive Project
+@import "base/responsive";

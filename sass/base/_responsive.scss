@@ -1,0 +1,468 @@
+
+/*====================================  Responsive Project  ====================================*/
+
+@media screen and (min-width:1400px){
+    .container{
+        max-width: 1370px;
+    }
+}
+
+
+@media screen and (max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+
+/*========= Responsive Header  =========*/
+
+    .nav__brand{
+        padding-right: 0;
+    }
+
+    .phone-number{
+        padding-left: 0;
+    }
+/*========= Responsive Section Domain  =========*/
+    .domain{
+        padding-top:2rem;
+    }
+    .domain-search {
+        transform: translateY(-4.5rem);
+    }
+
+
+/*========= Responsive Section security  =========*/
+    .security-content-box {
+        flex-basis: 49%;
+        flex-direction: column;
+        height: 15rem;
+    }
+    .security-content-box__caption {
+        margin-top: 1rem;
+    }
+    .security-content{
+        width: 55%;
+        padding-right: 4rem;
+    }
+    .security-picture{
+        width: 45%;
+    }
+
+    .swiper-cards{
+        overflow: hidden !important;
+    }
+/*========= Responsive Footer  =========*/
+    .footer-list{
+        flex-basis: 19%;
+    }
+    .footer-market__right{
+        padding-right: 3rem;
+    }
+    .footer-market__link{
+        display:inline-block;
+        @include width_height(10rem,10rem);
+        margin: 0 0.5rem;
+    }
+    .footer-market__icon{
+        @include width_height(100%,100%);
+    
+    }
+}
+
+
+
+@media screen and (max-width:992px){
+    .container{
+        max-width: 720px;
+    }
+
+/*========= Responsive Header  =========*/
+    .phone-number{
+        display: none;
+    }
+    .nav__brand-title{
+        font-size: 2.2rem;
+        padding-right: .5rem;
+    }
+    .menu{
+        padding-left: 1rem;
+    }
+    .menu__item{
+        font-size:1.7rem;
+        margin-left: 1.2rem;
+    }
+    .header-top-menu__link{
+        font-size:1.7rem;
+    }
+
+/*========= Responsive Section Home  =========*/
+    .home__wrapper{
+        flex-direction: column-reverse;
+    }
+    .home-content{
+        width: 100%;
+        text-align: center;
+    }
+    .home-content__title,
+    .home-content__description{
+        max-width: 100%;
+    }
+    .home-content__buttons{
+        justify-content: center;
+    }
+    .home-picture{
+        width: 100%;
+        margin: 1.5rem 0;
+    }
+
+/*========= Responsive Section Services  =========*/
+    .service-item{
+        flex-basis: 32%;
+    }
+
+
+/*========= Responsive Section security  =========*/
+    .security__wrapper{
+        flex-direction:column;
+    }
+    .security-picture{
+        width: 100%;
+    }
+    .security-content{
+        width: 100%;
+        padding: 0;
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .security-content-box {
+        flex-direction: row; 
+    }
+
+
+/*========= Responsive Section Pricing  =========*/
+    .pricing-item{
+        flex-basis: 48.5%;
+        &:last-child{
+            margin-right:auto;
+            margin-left:auto;
+        }
+    }
+    .pricing-item__btn {
+        width: 17rem;
+        height: 5rem;
+        transform: translateY(0); 
+        margin-bottom: 1.5rem;
+        margin-top: 2rem;
+    }
+    .pricing-item__caption {
+        font-size: 1.8rem;
+        margin: 2rem auto;
+    }
+    .pricing-item__price {
+        font-size: 2.2rem;
+    }
+    .pricing-item__title {
+        font-size: 2.9rem;
+    }
+
+
+/*========= Responsive Section Weblog  =========*/
+    .weblog-item{
+        flex-basis: 48.5%;
+        &:last-child{
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+/*========= Responsive Section Ticket  =========*/
+    .ticket-item {
+        max-width: 61rem;
+    }
+    .ticket-item__title{
+        font-size:3.2rem;
+    }
+    .ticket-item__btn {
+        width: 22rem;
+    }   
+/*========= Responsive Footer  =========*/
+    .footer-list{
+        flex-basis: 22%;
+    }
+    .footer-market__title{
+        justify-content:center;
+    }
+    .footer-market{
+        flex-direction:column;
+    }
+    .footer-market__left{
+        margin-bottom: 2rem;
+        text-align: center;
+        flex-basis:100%;
+    }
+    .footer-market__right{
+        padding-right: 0;
+        flex-basis: 100%;
+    }
+    .footer-bottom__drop{
+        display:none;
+    }
+    .footer__copy-right{
+        &:first-child{
+            margin:0 auto;
+        }
+        &:last-child{
+            display:none;
+        }
+    }
+}
+
+
+@media screen and (max-width:768px){
+    .container{
+        max-width: 540px;
+    }
+
+    
+/*========= Responsive Header  =========*/
+    .header-top,
+    .nav{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: flex;
+    }
+
+/*========= Responsive Section Domain  =========*/
+    .domain-search__input {        
+        padding:0 3rem 0 1rem; 
+    }
+    .domain__wrapper {
+        max-width: 100%;
+    }
+    .domain-search__input{
+        width: 100%;
+    }
+    .domain-search__link{
+        display: none;
+    }
+    .domain-search__btn-icon{
+        display: block;
+    }
+
+/*========= Responsive Section Services  =========*/
+    .service-item{
+        flex-basis: 49%;
+    }
+/*========= Responsive Section security  =========*/
+    .security-content-box {
+        flex-direction: column;
+    }
+
+    
+/*========= Responsive Section Pricing  =========*/
+    .pricing-item__img{
+        width: 10rem;
+        height: 12rem;
+    }
+    .pricing-item__title {
+        margin-top: 1rem;
+    }
+    .pricing-item-picture{
+        margin-top: 3rem;
+    }
+
+/*========= Responsive Section Comment  =========*/
+    .comment{
+        background-image: none;
+        background: linear-gradient(90deg, rgba(98,136,225,1) 0%, rgba(138,144,233,1) 56%, rgba(186,154,242,1) 90%);
+    }
+
+/*========= Responsive Footer  =========*/
+    .footer-list{
+        flex-basis: 30%;
+    }
+
+}
+
+@media screen and (max-width:576px){
+    .container{
+        max-width: 100%;
+    }
+
+    .section-heading__caption{
+        font-size: 1.8rem;
+    }
+    .section-heading__title{
+        font-size:3.7rem;
+    }
+/*========= Responsive Section Home  =========*/
+    .home-content__title{
+        font-size: 3.7rem;
+    }
+    .home-content__description{
+        font-size:1.7rem;
+    }
+/*========= Responsive Section Domain  =========*/
+    .domain-btn__row{
+        @include flexBox(space-evenly,center);
+    }
+
+
+/*========= Responsive Section security  =========*/
+    .security-content__caption{
+        font-size: 1.8rem;
+    }
+    .security-content__title{
+        font-size:3.7rem;
+    }
+    .security-content-box{
+        flex-basis: 100%;
+        background-color: #F8F8F8;
+        box-shadow: none; 
+    }
+    .security-content-box:nth-child(2),
+    .security-content-box:nth-child(4){
+    transform: translateY(0);
+    }
+    .security-content-box__caption {
+        font-size: 1.8rem;
+    }
+
+/*========= Responsive Section Pricing  =========*/
+    .pricing-item{
+        flex-basis: 100%;
+    }
+    .pricing-item-picture{
+        margin-top: 2.2rem;
+    }
+    .pricing-item__title{
+        margin-top: 0.6rem;
+    }
+    .pricing-item__caption {
+        margin: 1.7rem auto;
+    }
+
+
+/*========= Responsive Section Comment  =========*/
+    .comment__title{
+        font-size: 3.7rem;
+    }
+    .comment__icon{
+        width: 6rem;
+        height: 6rem;
+    }
+    .comment-slider__text{
+        font-size: 1.7rem;
+    }
+    .comment-slider-user__name{
+        font-size: 1.8rem;
+    }
+    .comment-slider__star{
+        width: 1.7rem;
+    }
+    .comment-slider__star--white{
+        width:2.1rem;
+    }
+
+    
+/*========= Responsive Section Weblog  =========*/
+    .weblog-item{
+        flex-basis: 100%;
+    }
+    .weblog__title{
+        font-size:3.7rem;
+    }
+    .weblog-item__title {
+        font-size: 1.8rem;
+    }
+    .weblog__button {
+        margin-bottom: 13rem;
+    }
+
+/*========= Responsive Section Ticket  =========*/
+    .ticket-item{
+        width: 100%;
+    }
+    .ticket-item__title{
+        font-size:3rem;
+    }
+    .ticket-item__btn{
+        display:none;
+    }
+    .ticket-item__buttons{
+        display: flex;
+        justify-content: space-evenly;
+    }
+    .ticket-item__btn--mobile{
+        display: flex;
+    }
+
+
+/*========= Responsive Footer  =========*/
+    .footer {
+        padding-top: 16rem;
+    }
+    .footer-list{
+        flex-basis: 100%;
+        text-align: center;
+    }
+
+    .footer-list__title {
+        &::before{
+            display: none;
+        }
+    }
+    .footer-list__item--about {
+        max-width: 100%;
+        justify-content:center;
+        align-items: stretch
+    }
+    .footer-market__title{
+        font-size: 2.2rem;
+    }
+/*========= Responsive Cursor  =========*/
+.mobile-nav-btn__line,
+.comment-slider__img,
+.comment-slider__star,
+.weblog-item-footer__icon-like,
+.weblog-item-footer__icon-save{
+    cursor: auto;
+}
+
+}
+
+
+
+@media screen and (max-width:420px){
+/*========= Responsive Header  =========*/
+    .mobile-nav__brand-title{
+        font-size: 2.2rem;
+    }
+/*========= Responsive Section Domain   =========*/
+    .domain-search__pipe{
+        display:none;
+    }
+    .domain-search__input {
+        padding: 0 0rem 0 1rem;
+        font-size: 1.6rem;
+    }
+/*========= Responsive Section Services  =========*/
+     .service-item{
+        flex-basis: 100%;
+    }
+
+
+/*========= Responsive Section Comment  =========*/
+    .comment-slider__stars{
+        display: none;
+    }
+    
+/*========= Responsive Section Comment  =========*/
+    .footer-market__link {
+        width: 8rem;
+        height: 8rem;
+    }
+}
+
