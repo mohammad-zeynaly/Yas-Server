@@ -11,7 +11,7 @@
 ---
 ## web development technologies
 * html 
-* css (css pure + flex box + css grid)
+* scss => (compile css pure)
 * java script (javascript + swiper)
 ---
 ## contact me
