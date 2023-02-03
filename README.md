@@ -8,6 +8,7 @@
 ## tips
 
 * fully responsive for mobile, tablet, laptop and desktop
+* landing page hosting
 ---
 ## web development technologies
 * html 
