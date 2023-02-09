@@ -12,7 +12,7 @@
 ---
 ## web development technologies
 * html 
-* scss => (compile css pure)
+* sass => (compile css pure)
 * java script (javascript + swiper)
 ---
 ## contact me
