@@ -2,7 +2,7 @@
 ---
 
 # yasserver.com/fa page front-end
-## [review online](https://mohammad-zeynali.github.io/Yas-Server/)
+## [review online](https://mohammad-zeynaly.github.io/Yas-Server/)
 
 ---
 ## tips
